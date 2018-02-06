@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>div左右交叉布局--文字和图片交叉</title>
+  </head>
+  <body>
+<style>
+  .C {
+    margin: auto;
+    padding: 30px 20px 40px;
+    max-width: 600px;
+  }
+  .R {
+    display: block;
+    width: 100%;
+  }
+  @media only screen and (min-width: 768px) {
+    .R {
+      display: flex;
+      width: 100%;
+      align-content: flex-end;
+    }
+     .W {
+      display: flex;
+      flex-direction: column;
+      font-size: 16px;
+      justify-content: center;
+    }
+   .R:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  }
+
+  .I, .W {
+    width: 90%;
+  }
+  .I img {
+    width: 100%;
+  }
+
+</style>
+<div class="C">
+  <div class="R">
+    <div class="I"><img src="../images/flex/r1.jpg" alt="">img1</div>
+    <div class="I"><img src="../images/flex/r1.jpg" alt="">img1</div>
+    <div class="I"><img src="../images/flex/r1.jpg" alt="">img1</div>
+    <div class="W">我是文字，我使用了flex布局，我按column在主轴y轴上居中对齐。</div>
+  </div>
+  <div class="R">
+    <div class="I"><img src="../images/flex/r1.jpg" alt=""></div>
+    <div class="W">我是文字，我使用了flex布局，我按column在主轴y轴上居中对齐。</div>
+  </div>
+  <div class="R">
+    <div class="I"><img src="../images/flex/r1.jpg" alt=""></div>
+    <div class="W">我是文字，我使用了flex布局，我按column在主轴y轴上居中对齐。</div>
+  </div>
+</div>
+  </body>
+</html>
