@@ -38,7 +38,7 @@ var breakpoint = 0;
 							
 							var itemwidth = 0;
 							itemwidth = (num < xspace) ? ($(this).innerWidth() + spacer) + xspacer : $(this).innerWidth() + spacer;
-							alert(itemwidth)
+							#alert(itemwidth)
 							$(this).css({'width':itemwidth+'px'});
 							alert(itemwidth)
 							num++;

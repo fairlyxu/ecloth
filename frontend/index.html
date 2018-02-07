@@ -16,18 +16,21 @@
 <style>
         .option img{  width:22px; padding-left:8px;}
 		.navbar-nav > li > a:hover {}
-		.navbar-nav > li:hover {background:#fff !important;}
+		.open>a:hover{background:#000 !important;}
+		.navbar-nav > li:hover {background:#000 !important;border:2px solid #000;border-bottom-color: #fff;}
 		.navbar-nav > li:last-of-type > a {border:0;}
 		@media ( min-width: 768px) {
 			.navbar-nav > li > a {text-align:center;}
 
 		}
 		@media (min-width: 992px){
+		.navbar-nav>li>a { padding-bottom: 2px;}
+		.dropdown-menu{}
 		.col-md-offset-1 {
             margin-left: 12.3%;}
         .nav-opt{top: 7em;}}
 		 .topicmenu{
-		  height:500px;
+		  height:50vh;
           text-align:center;
          position:relative
        }
@@ -74,8 +77,9 @@
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav" style="width:112%">
         	<li class="navdropdown"><a href="#">最新上架</a></li>
-            <li class="navdropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">内衣 <b class="caret"></b></a>
-                <ul class="dropdown-menu depth_0" style="width:100%;min-width: 1px;">
+            <li class="navdropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">内衣 <b class="caret"></b></a>
+                <ul class="dropdown-menu depth_0" style="background-color:rgba(0,0,0,0.5);width:90%;min-width: 1px">
                     <li><a href="#">Feature 1</a></li>
                     <li><a href="#">Feature 1</a></li>
                     <li><a href="#">Feature 1</a></li>
@@ -114,7 +118,7 @@
   <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-4 text-center">
+                <div class="col-xs-4 text-center">
                     <h4>Information</h4>
                     <ul class="list-unstyled">
                         <li><a href="">Products</a></li>
@@ -123,7 +127,7 @@
                         <li><a href="">Developers</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-4 text-center">
+                <div class="col-xs-4 text-center">
                     <h4>About</h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Contact Us</a></li>
@@ -132,7 +136,7 @@
                         <li><a href="#">Terms &amp; Conditions</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-4 text-center">
+                <div class="col-xs-4 text-center">
                     <h4>About</h4>
                     <ul class="list-unstyled">
                         <li><a href="#">Contact Us</a></li>
@@ -159,9 +163,7 @@
         $(document).ready(function(){
         dropdownOpen();//调用
         });
-        /**
-        *
-        */
+
         function dropdownOpen() {
         var $dropdownLi = $('li.navdropdown');
 
