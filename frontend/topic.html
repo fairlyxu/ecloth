@@ -18,21 +18,30 @@
   </head>
   <body style="overflow-x:hidden;">
 <style>
-        body{
-         background-image:url(./images/2.jpg); background-repeat:no-repeat; -moz-background-size:100% 100%;
-         width: 100%;
-        height: 900px;
-        min-height: 300px;
-        background-position: center;
-        background-size: cover;
-        display: table;
-        padding: 0px;
-        position: relative;
-       }
+
+.main {
+right:5%;
+position: fixed;
+ top:50vh;
+}
+section{
+ background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
+
+}
+#one{
+background-image:url(./images/1.jpg);
+}
+
+#two{
+background-image:url(./images/2.jpg);
+}
         .option img{  width:22px; padding-left:8px;}
 		li > a{color:#fff}
+		header{
+		     background-color: #000;
+		 }
 		.open>a:hover{background:#000 !important;}
-		.navbar-nav > li:hover {background:#000 !important;border:2px solid #000;border-bottom-color: #fff;}
+		.navbar-nav > li:hover {border:1px solid #000;border-bottom-color: #000;}
 		.navbar-nav > li:last-of-type > a {border:0;}
 		@media ( min-width: 768px) {
 			.navbar-nav{width:120%}
@@ -40,7 +49,6 @@
 
 		}
 		@media (min-width: 992px){
-
 		.navbar-nav>li>a { padding-bottom: 2px;}
 		.col-md-offset-1 {
         margin-left: 12.3%;}
@@ -123,30 +131,117 @@
       </div><!-- /.navbar-collapse -->
   	</nav>
  </header>
-  <section id="bg-primary">
-      <div class="container">
+<!--
+<div class="main">
+    <ul class="nav-side-nav">
+            <a href="#one"> <li></li></a>
+            <a href="#two" ><li></li></a>
+            <a href="#three"><li></li></a>
+        </ul>
+</div>
+-->
+  <section id="one">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-md-offset-1 text-center ">
-                    <div class="topicmenu">
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">GENTLETOUCH</h3>
+                <div class="col-lg-12 text-center">
+                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Responsive</h3>
+                        <p class="text-muted">Your site looks good everywhere</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="topicmenu">
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">NAUGTY PLAY</h3>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                        <h3>Customizable</h3>
+                        <p class="text-muted">Easy to theme and customize with SASS</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 text-center">
-
-                    <div class="topicmenu">
-                        <p class="hidden-xs">Entice your guy over to your place early, and let him watch you masturbate before you leave for the evening, telling him he can have his turn later</p>
-                        <h4 class="hidden-xs">View more</h4>
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">ADVANTUROUS </h3>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Consistent</h3>
+                        <p class="text-muted">A mature, well-tested, stable codebase</p>
                     </div>
                 </div>
             </div>
         </div>
-  </section>
+    </section>
+  <section id="two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Responsive</h3>
+                        <p class="text-muted">Your site looks good everywhere</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                        <h3>Customizable</h3>
+                        <p class="text-muted">Easy to theme and customize with SASS</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="feature">
+                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
+                        <h3>Consistent</h3>
+                        <p class="text-muted">A mature, well-tested, stable codebase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
+                        <img src="./assets/deer.jpg" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg">Gental Touch</i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
+                        <img src="./assets/beach.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg">Adventrous Night</i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+            </div>
+        </div>
+    </section>
+  <!--
   <footer id="footer">
         <div class="container">
             <div class="row">
@@ -182,8 +277,9 @@
             <span class="center-block text-center text-muted small">More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>
                 - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span>
         </div>
-    </footer>
+    </footer>-->
      <!--scripts loaded here-->
+
     <script src="./js/jquery.min.js"></script>
     <!--<script src="./js/bootstrap.min.js"></script>-->
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->

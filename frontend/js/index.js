@@ -39,7 +39,8 @@ var breakpoint = 0;
 							itemwidth = (num < xspace) ? ($(this).innerWidth() + spacer) + xspacer : $(this).innerWidth() + spacer;
 							//alert(itemwidth)
 							//$(this).css({'width':itemwidth+'px'});
-							$(this).css({'width':"15%"});
+							$(this).css({'width':"9%"});
+							$(this).css({'margin':"0 3%"});
 							num++;
 							
 							if ( $(this).find('.dropdown-menu').length != 0 ) {

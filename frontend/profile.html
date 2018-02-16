@@ -18,10 +18,11 @@
   </head>
   <body style="overflow-x:hidden;">
 <style>
-        body{
-         background-image:url(./images/2.jpg); background-repeat:no-repeat; -moz-background-size:100% 100%;
+        .nav
+        {
+         background-image:url(./images/1.jpg); background-repeat:no-repeat; -moz-background-size:100% 100%;
          width: 100%;
-        height: 900px;
+        height: 250px;
         min-height: 300px;
         background-position: center;
         background-size: cover;
@@ -34,42 +35,28 @@
 		.open>a:hover{background:#000 !important;}
 		.navbar-nav > li:hover {background:#000 !important;border:2px solid #000;border-bottom-color: #fff;}
 		.navbar-nav > li:last-of-type > a {border:0;}
+         #primary{
+           width:98%;
+           position: relative;
+           color:transparent;
+           top: -15em;
+           border: 1px solid #fff;
+           background-color:rgba(21, 21, 21, 0.5);
+           filter: Alpha(Opacity=50) /* for IE */}
+
+		p{color:#fff;}
 		@media ( min-width: 768px) {
 			.navbar-nav{width:120%}
 			.navbar-nav > li > a {text-align:center;}
+			#primary>.container{margin-top: -6em;}
 
 		}
 		@media (min-width: 992px){
-
 		.navbar-nav>li>a { padding-bottom: 2px;}
 		.col-md-offset-1 {
         margin-left: 12.3%;}
         .nav-opt{top: 7em;}
-         .topicmenu>p{
-         text-align:left ;
-         font-size: 1em;
-         left:15%;
-		  width:55%;
-		 position:absolute;
-		 bottom:25%;}
-
-		  .topicmenu>h4{
-		  padding-bottom: 5px;
-            border-bottom: 1px solid;
-		   text-align:left ;
-		  width:34%;
-		  left:15%;
-		 position:absolute;
-		 bottom:12%;}
-		 }
-		 .topicmenu{
-		  height:50vh;
-          text-align:center;
-         position:relative; }
-        .topicmenu>h3{
-		  width:100%;
-		 position:absolute;
-		 bottom:0px;}
+     }
 
 
 </style>
@@ -94,55 +81,54 @@
                </div>
           </div>
       </div>
+      <div class="nav">
       <nav class="navbar equinav" role="navigation" style="margin:0 auto;width:80%">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background:#fff;">
-          <span class="icon-bar" style="background-color: #123;"></span>
-          <span class="icon-bar" style="background-color: #123;"></span>
-          <span class="icon-bar" style="background-color: #123;"></span>
-        </button>
-        <span class="navbar-brand">Menu</span>
-      </div><!-- /.navbar-header -->
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" >
-        	<li class="navdropdown"><a href="#">最新上架</a></li>
-            <li class="navdropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">内衣 <b class="caret"></b></a>
-                <ul class="dropdown-menu depth_0" style="background-color:rgba(0,0,0,0.5);width:90%;min-width: 1px">
-                    <li><a href="#">Feature 1</a></li>
-                    <li><a href="#">Feature 1</a></li>
-                    <li><a href="#">Feature 1</a></li>
-                    <li><a href="#">Feature 1</a></li>
-                </ul>
-            </li>
-            <li class="navdropdown"><a href="#">品牌</a></li>
-            <li class="navdropdown"><a href="#">配饰</a></li>
-            <li class="navdropdown"><a href="#">护肤美体</a></li>
-            <li class="navdropdown"><a href="#">私享</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-  	</nav>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background:#fff;">
+              <span class="icon-bar" style="background-color: #123;"></span>
+              <span class="icon-bar" style="background-color: #123;"></span>
+              <span class="icon-bar" style="background-color: #123;"></span>
+            </button>
+            <span class="navbar-brand">Menu</span>
+          </div><!-- /.navbar-header -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" >
+                <li class="navdropdown"><a href="#">最新上架</a></li>
+                <li class="navdropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">内衣 <b class="caret"></b></a>
+                    <ul class="dropdown-menu depth_0" style="background-color:rgba(0,0,0,0.5);width:90%;min-width: 1px">
+                        <li><a href="#">Feature 1</a></li>
+                        <li><a href="#">Feature 1</a></li>
+                        <li><a href="#">Feature 1</a></li>
+                        <li><a href="#">Feature 1</a></li>
+                    </ul>
+                </li>
+                <li class="navdropdown"><a href="#">品牌</a></li>
+                <li class="navdropdown"><a href="#">配饰</a></li>
+                <li class="navdropdown"><a href="#">护肤美体</a></li>
+                <li class="navdropdown"><a href="#">私享</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+      </nav>
+          </div>
  </header>
-  <section id="bg-primary">
+  <section id="primary" class="center-block">
       <div class="container">
+          <p>我的账号</p>
+          <hr>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-md-offset-1 text-center ">
-                    <div class="topicmenu">
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">GENTLETOUCH</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="topicmenu">
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">NAUGTY PLAY</h3>
-                    </div>
+                <div class="col-lg-3 col-md-3 ">
+                    <p>账户信息</p>
+                    <p>我的订单</p>
+                    <p>我的收藏</p>
+                    <p>设置</p>
                 </div>
                 <div class="col-lg-3 col-md-3 text-center">
 
-                    <div class="topicmenu">
-                        <p class="hidden-xs">Entice your guy over to your place early, and let him watch you masturbate before you leave for the evening, telling him he can have his turn later</p>
-                        <h4 class="hidden-xs">View more</h4>
-                        <h3 class="wow fadeIn" data-wow-delay=".3s">ADVANTUROUS </h3>
-                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
+
+
                 </div>
             </div>
         </div>
