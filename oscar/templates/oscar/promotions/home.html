@@ -1,14 +1,83 @@
-{% extends "layout_2_col.html" %}
+{% extends "layout_1_col.html" %}
 {% load i18n %}
 
+{% block header %}
 {% block navigation %}
     {% include "partials/nav_primary.html" with expand_dropdown=1 %}
 {% endblock %}
-
-{% block header %}{% endblock %}
-
-{% block column_left %}
 {% endblock %}
-
 {% block content %}
+<style>
+  body{
+        overflow-x:hidden;
+         background-image:url(/media/banner/1.jpg); background-repeat:no-repeat; -moz-background-size:100% 100%;
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        padding: 0px;
+        position: relative;
+       }
+       .topicmenu,p{
+         color:#f8f8f8;
+         }
+		@media ( min-width: 768px) {
+        #advanturous{left: -1.5em;}
+		.col-md-offset-1 {
+        margin-left: 12.3%;}
+        }
+         .topicmenu>p{
+         text-align:left ;
+         font-size: 1em;
+         left:15%;
+		 width:55%;
+		 position:absolute;
+		 bottom:25%;}
+
+		  .topicmenu>a>h4{
+		  padding-bottom: 5px;
+            border-bottom: 1px solid;
+		   text-align:left ;
+		  width:34%;
+		  left:15%;
+		 position:absolute;
+		 bottom:12%;}
+
+		 .topicmenu{
+		  height:70vh;
+          text-align:center;
+         position:relative; }
+        .topicmenu>h3{
+		  width:100%;
+		 position:absolute;
+		 bottom:0px;}
+
+
+</style>
+ <section id="bg-primary">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-md-offset-1 text-center ">
+                    <div class="topicmenu">
+                        <h3 class="wow fadeIn" data-wow-delay=".3s">GENTLETOUCH</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
+                    <div class="topicmenu">
+                        <h3 class="wow fadeIn" data-wow-delay=".3s">NAUGTY PLAY</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 text-center">
+                    <div class="topicmenu">
+                        <p class="hidden-xs">Entice your guy over to your place early, and let him watch you masturbate before you leave for the evening, telling him he can have his turn later</p>
+                        <a href="/topic"><h4 class="hidden-xs">View more</h4></a>
+                        <h3 class="wow fadeIn" data-wow-delay=".3s" id="advanturous">ADVANTUROUS </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
 {% endblock content %}
+
+

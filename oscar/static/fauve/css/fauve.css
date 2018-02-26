@@ -1,0 +1,16 @@
+body{
+background-color:#222;
+color:#f8f8f8
+}
+.page_inner{
+    background: transparent!important;
+    border: 1px solid #f8f8f8;
+}
+.breadcrumb {
+background: transparent!important;
+}
+
+/* --------- table -----------*/
+.table-striped > tbody > tr:nth-of-type(odd) {
+     background-color: transparent!important;
+}

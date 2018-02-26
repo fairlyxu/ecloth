@@ -19,7 +19,7 @@ urlpatterns = [
     # for developers.
     # http://127.0.0.1:8080/zh-cn/catalogue/
     #url(r'/', commom_views.index),
-    #url(r'^common', include(commom_urls)),
+    url(r'^topic', commom_views.index),
     url(r'^admin/', include(admin.site.urls)),
     # i18n URLS need to live outside of i18n_patterns scope of Oscar
     url(r'^i18n/', include(django.conf.urls.i18n)),

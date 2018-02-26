@@ -35,7 +35,6 @@
         {# Scripts loaded from a CDN. #}
         {% block cdn_scripts %}
             <!-- jQuery -->
-        <script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
         <script>window.jQuery || document.write('<script src="{% static "oscar/js/jquery/jquery-1.9.1.min.js" %}"><\/script>')</script>
         {% endblock %}
 
@@ -45,16 +44,13 @@
 
         {# Additional JS scripts #}
         {% block extrascripts %}{% endblock %}
-
         {# Block for body onload functions #}
-
         <script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
         <script type="text/javascript">
             $(function() {
                 {% block onbodyload %}{% endblock %}
             });
         </script>
-
         {# Page meta-data - this is populated by the 'metadata' template context processor #}
     </body>
 </html>

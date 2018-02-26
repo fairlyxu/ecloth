@@ -1993,7 +1993,7 @@ msgstr "邮件历史"
 #: apps/customer/views.py:443 templates/oscar/customer/baseaccountpage.html:33
 #: templates/oscar/customer/partials/nav_account.html:23
 msgid "Order History"
-msgstr "订购历史"
+msgstr "我的订单"
 
 #: apps/customer/views.py:494 apps/order/abstract_models.py:282
 #: apps/order/abstract_models.py:337 apps/order/abstract_models.py:379
@@ -2078,7 +2078,7 @@ msgstr "我们不能送货到这个国家"
 #: templates/oscar/customer/wishlists/wishlists_detail.html:15
 #: templates/oscar/customer/wishlists/wishlists_form.html:13
 msgid "Wish Lists"
-msgstr "心愿单"
+msgstr "我的收藏"
 
 #: apps/customer/wishlists/views.py:78
 msgid "Quantities updated."
@@ -2087,7 +2087,7 @@ msgstr "数量更新"
 #: apps/customer/wishlists/views.py:92
 #: templates/oscar/customer/wishlists/wishlists_list.html:49
 msgid "Create a new wish list"
-msgstr "创造一个新心愿单"
+msgstr "创造一个新收藏夹"
 
 #: apps/customer/wishlists/views.py:102
 msgid "The requested product no longer exists"
@@ -2096,21 +2096,21 @@ msgstr "要找的产品已不存在"
 #: apps/customer/wishlists/views.py:121
 #, python-format
 msgid "Your wishlist has been created and '%(name)s has been added"
-msgstr "您的心愿单已经被创建，并且被命名为'%(name)s"
+msgstr "您的收藏夹已经被创建，并且被命名为'%(name)s"
 
 #: apps/customer/wishlists/views.py:125
 msgid "Your wishlist has been created"
-msgstr "你的心愿单已经被创建"
+msgstr "你的收藏夹已经被创建"
 
 #: apps/customer/wishlists/views.py:147
 #, python-format
 msgid "%(title)s has been added to your wishlist"
-msgstr "%(title)s 已经被添加到您的心愿单"
+msgstr "%(title)s 已经被添加到您的收藏夹"
 
 #: apps/customer/wishlists/views.py:173
 #, python-format
 msgid "Your '%s' wishlist has been updated"
-msgstr "您的 心愿单'%s'已经被更新 "
+msgstr "您的 收藏夹'%s'已经被更新 "
 
 #: apps/customer/wishlists/views.py:184
 #, python-format
@@ -2120,12 +2120,12 @@ msgstr "删除 %s"
 #: apps/customer/wishlists/views.py:192
 #, python-format
 msgid "Your '%s' wish list has been deleted"
-msgstr "您的 心愿单'%s'已经被删除 "
+msgstr "您的 收藏夹'%s'已经被删除 "
 
 #: apps/customer/wishlists/views.py:236
 #, python-format
 msgid "'%s' was added to your wish list."
-msgstr "'%s'已经加入你的心愿单。"
+msgstr "'%s'已经加入你的收藏夹。"
 
 #: apps/customer/wishlists/views.py:270
 #, python-format
@@ -2135,12 +2135,12 @@ msgstr "删除 %s"
 #: apps/customer/wishlists/views.py:285
 #, python-format
 msgid "'%(title)s' was removed from your '%(name)s' wish list"
-msgstr "'%(title)s' 已被从您的心愿单'%(name)s' 中移除"
+msgstr "'%(title)s' 已被从您的收藏夹'%(name)s' 中移除"
 
 #: apps/customer/wishlists/views.py:318
 #, python-format
 msgid "'%(title)s' moved to '%(name)s' wishlist"
-msgstr "'%(title)s' 被移动到心愿单'%(name)s' "
+msgstr "'%(title)s' 被移动到收藏夹'%(name)s' "
 
 #: apps/dashboard/catalogue/forms.py:32
 msgid "Create a new product of type"
@@ -4985,17 +4985,17 @@ msgstr "默认"
 
 #: apps/wishlists/abstract_models.py:37
 msgid "Private - Only the owner can see the wish list"
-msgstr "私有的 -只有拥有者才能查看心愿单"
+msgstr "私有的 -只有拥有者才能查看收藏夹"
 
 #: apps/wishlists/abstract_models.py:38
 msgid ""
 "Shared - Only the owner and people with access to the obfuscated link can "
 "see the wish list"
-msgstr "分享 -只有拥有者和有权查看模糊链接的人才能看心愿单"
+msgstr "分享 -只有拥有者和有权查看模糊链接的人才能看收藏夹"
 
 #: apps/wishlists/abstract_models.py:40
 msgid "Public - Everybody can see the wish list"
-msgstr "公开的- 每个人都能看到心愿单"
+msgstr "公开的- 每个人都能看到收藏夹"
 
 #: apps/wishlists/abstract_models.py:42
 msgid "Visibility"
@@ -5003,15 +5003,15 @@ msgstr "可见度"
 
 #: apps/wishlists/abstract_models.py:87 apps/wishlists/abstract_models.py:113
 msgid "Wish List"
-msgstr "心愿单"
+msgstr "收藏夹"
 
 #: apps/wishlists/abstract_models.py:139
 msgid "Wish list line"
-msgstr "心愿单行"
+msgstr "收藏夹行"
 
 #: apps/wishlists/config.py:8
 msgid "Wishlists"
-msgstr "心愿单"
+msgstr "收藏夹"
 
 #: core/phonenumber.py:124
 msgid "The phone number entered is not valid."
@@ -5700,7 +5700,7 @@ msgstr "通知我"
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:31
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:46
 msgid "Add to wish list"
-msgstr "加入心愿单"
+msgstr "加入收藏夹"
 
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:17
 #, python-format
@@ -5712,7 +5712,7 @@ msgstr ""
 
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:24
 msgid "Create a new wishlist"
-msgstr "创造一个新心愿单"
+msgstr "创造一个新收藏夹"
 
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:38
 #, python-format
@@ -5720,7 +5720,7 @@ msgid ""
 "\n"
 "                    <span class=\"pull-left\">Product is in <a href=\"%(url)s\">'%(name)s'</a> wishlist.</span>\n"
 "                "
-msgstr "\n<span class=\"pull-left\">产品位于<a href=\"%(url)s\">'%(name)s'</a>心愿单内</span>"
+msgstr "\n<span class=\"pull-left\">产品位于<a href=\"%(url)s\">'%(name)s'</a>收藏夹内</span>"
 
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:41
 #: templates/oscar/customer/wishlists/wishlists_delete_product.html:32
@@ -5732,7 +5732,7 @@ msgstr "删除中..."
 
 #: templates/oscar/catalogue/partials/add_to_wishlist.html:46
 msgid "Please login to add products to a wish list."
-msgstr "请先登录再添加商品到心愿单"
+msgstr "请先登录再添加商品到收藏夹"
 
 #: templates/oscar/catalogue/partials/review.html:23
 #, python-format
@@ -6636,7 +6636,7 @@ msgstr "没有可显示的提醒。"
 #: templates/oscar/customer/order/order_detail.html:9
 #: templates/oscar/customer/order/order_list.html:14
 msgid "Order history"
-msgstr "订购历史"
+msgstr "我的订单"
 
 #: templates/oscar/customer/order/order_detail.html:18
 msgid "Dispatch date"
@@ -6780,7 +6780,7 @@ msgid ""
 "\n"
 "                Are you sure you want to delete %(product_name)s from wish list %(wishlist_name)s?\n"
 "            "
-msgstr "\n您确定想要从心愿单%(wishlist_name)s'删除%(product_name)s'？"
+msgstr "\n您确定想要从收藏夹%(wishlist_name)s'删除%(product_name)s'？"
 
 #: templates/oscar/customer/wishlists/wishlists_detail.html:33
 #: templates/oscar/customer/wishlists/wishlists_list.html:11
@@ -6797,7 +6797,7 @@ msgid ""
 "\n"
 "                                                            Move to '%(name)s' wish list\n"
 "                                                        "
-msgstr "\n移动到心愿单'%(name)s' "
+msgstr "\n移动到收藏夹'%(name)s' "
 
 #: templates/oscar/customer/wishlists/wishlists_detail.html:100
 msgid "Update quantities"
@@ -6805,7 +6805,7 @@ msgstr "更新数量"
 
 #: templates/oscar/customer/wishlists/wishlists_detail.html:109
 msgid "Your wish list is empty."
-msgstr "你的心愿单是空的。"
+msgstr "你的收藏夹是空的。"
 
 #: templates/oscar/customer/wishlists/wishlists_form.html:19
 msgid "Create"
@@ -6813,7 +6813,7 @@ msgstr "创建"
 
 #: templates/oscar/customer/wishlists/wishlists_form.html:29
 msgid "What should your new wish list be called?"
-msgstr "你的新心愿单叫什么名字？"
+msgstr "你的新收藏夹叫什么名字？"
 
 #: templates/oscar/customer/wishlists/wishlists_form.html:34
 #, python-format
@@ -6821,7 +6821,7 @@ msgid ""
 "\n"
 "                    After your wishlist is created, <strong>%(title)s</strong> will be added.\n"
 "                "
-msgstr "\n在您的心愿单创建后，<strong>%(title)s</strong>会被添加"
+msgstr "\n在您的收藏夹创建后，<strong>%(title)s</strong>会被添加"
 
 #: templates/oscar/customer/wishlists/wishlists_list.html:10
 msgid "Number of products"
@@ -6829,11 +6829,11 @@ msgstr "产品编号"
 
 #: templates/oscar/customer/wishlists/wishlists_list.html:26
 msgid "Wish list settings"
-msgstr "心愿单设置"
+msgstr "收藏夹设置"
 
 #: templates/oscar/customer/wishlists/wishlists_list.html:44
 msgid "You don't have any wish lists yet."
-msgstr "你还没有任何心愿单。"
+msgstr "你还没有任何收藏夹。"
 
 #: templates/oscar/dashboard/catalogue/category_delete.html:14
 #: templates/oscar/dashboard/catalogue/category_delete.html:19

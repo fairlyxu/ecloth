@@ -1,13 +1,14 @@
 {% extends "layout_2_col.html" %}
-
 {% load i18n %}
-
 {% block title %}
     {{ page_title }} | {% trans 'Account' %} | {{ block.super }}
 {% endblock %}
-
+{% block header %}
+{% endblock %}
+{% block navigation %}
+    {% include "partials/nav_primary1.html" %}
+{% endblock %}
 {% block body_class %}account-profile{% endblock %}
-
 {% block breadcrumbs %}
     <ul class="breadcrumb">
         <li>
@@ -32,5 +33,21 @@
 {% endblock %}
 
 {% block content %}
+<style>
+    .page{
+    width: 98%;
+    position: relative;
+    padding:10px;
+    /* color: transparent; */
+    top: -17em;
+    border: 1px solid #fff;
+    background-color: rgba(21, 21, 21, 0.5);
+    filter: Alpha(Opacity=50) /* for IE */;
+    z-index: 2;
+    }
+
+</style>
     {% block tabcontent %}{% endblock tabcontent %}
 {% endblock content %}
+
+

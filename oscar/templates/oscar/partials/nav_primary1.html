@@ -32,6 +32,25 @@ li>a{
  }
 .dropdown-menu > li > a{
     display: initial;}
+
+ .imgnav{
+    background-image: url(/media/banner/1.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    width: 100%;
+    height: 250px;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    padding: 0px;
+    position: relative;
+ }
+ header{
+    max-width: 2280px!important;
+    padding: 0!important;
+    z-index:auto!important;
+ }
 </style>
 <!-- 语言 账户-->
 <div id="top_page" class="navbar navbar-default navbar-static-top accounts" style="background-color: transparent;border-color: transparent;">
@@ -43,6 +62,7 @@ li>a{
             <span class="icon-bar"></span>
         </a>
     </div>
+
     <div class="navbar-collapse account-collapse collapse">
         <div class="container-fluid">
             {% block nav_account_languages %}
@@ -115,7 +135,8 @@ li>a{
         </div>
     </div>
 </div>
-<div class="navbar primary navbar-static-top navbar-inverse center-block" style="width: 86%;">
+<div class="imgnav">
+  <div class="navbar primary navbar-static-top navbar-inverse center-block" style="width: 86%;">
     <div class="container-fluid">
         <div class="navbar-header pull-right">
             {# This is used in mobile view #}
@@ -169,6 +190,7 @@ li>a{
         </div><!-- /navbar-collapse -->
     </div>
 </div><!-- /navbar -->
+</div>
 {% load staticfiles %}
 <script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
     <script>

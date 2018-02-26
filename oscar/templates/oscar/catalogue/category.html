@@ -34,6 +34,20 @@
 {% endblock breadcrumbs %}
 
 {% block content %}
+<style>
+    .page{
+    width: 98%;
+    position: relative;
+    padding:10px;
+    /* color: transparent; */
+    top: -17em;
+    border: 1px solid #fff;
+    background-color: rgba(21, 21, 21, 0.5);
+    filter: Alpha(Opacity=50) /* for IE */;
+    z-index: 2;
+    }
+
+</style>
     {% if category.description %}
         <div class="row">
             <div class="col-sm-9"><p>{{ category.description|safe }}</p></div>

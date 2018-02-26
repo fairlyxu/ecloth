@@ -1,0 +1,80 @@
+{% extends "layout_1_col.html" %}
+{% load i18n %}
+{% block navigation %}
+    {% include "partials/nav_primary.html" with expand_dropdown=1 %}
+{% endblock %}
+{% block header %}{% endblock %}
+{% block content %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css' %}" />
+
+    <link rel="stylesheet" href="{% static 'fauve/css/animate.min.css'  %}" />
+    <link rel="stylesheet" href="{% static 'fauve/css/ionicons.min.css'  %}" />
+    <link rel="stylesheet" href="{% static 'fauve/css/styles.css'  %}"  />
+    <script src="{% static 'fauve/js/jquery.easing.min.js'  %}" ></script>
+    <script src="{% static 'fauve/js/wow.js'  %}" ></script>
+    <script src="{% static 'fauve/js/scripts.js'  %}" ></script>
+    <script src="{% static 'fauve/js/index.js'  %}" ></script>
+<style>
+.main {
+right:5%;
+position: fixed;
+ top:50vh;
+}
+section{
+height:400px;
+ background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
+}
+section>a{
+height:100%}
+section img{
+height:400px;}
+#one{
+background-image:url(/media/banner/3.jpg);
+}
+
+#two{
+background-image:url(/media/banner/4.jpg);
+}
+.topic-w {
+    max-width: 2280px;
+}
+</style>
+
+<div class="row">
+    <section class="col-sm-12 text-center" id="one">
+        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
+    </section>
+    <section class="col-sm-12 text-center" id="two">
+        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
+    </section>
+    <section class="col-lg-6 col-sm-6">
+                    <a href="/" class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
+                        <img src="/media/banner/2.jpg" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg">Gental Touch</i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+    <section class="col-lg-6 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
+                        <img src="/media/banner/2.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg">Adventrous Night</i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </section>
+    <div class="clearfix hidden-lg"> </div>
+</div>
+
+{% endblock content %}
+
+
