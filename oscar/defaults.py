@@ -73,7 +73,13 @@ OSCAR_EAGER_ALERTS = True
 
 # Registration
 OSCAR_SEND_REGISTRATION_EMAIL = True
-OSCAR_FROM_EMAIL = 'oscar@example.com'
+OSCAR_FROM_EMAIL = '635316960@qq.com'
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 465
+EMAIL_HOST_USER = '635316960@qq.com'
+EMAIL_HOST_PASSWORD = 'xfl8023le'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Slug handling
 OSCAR_SLUG_FUNCTION = 'oscar.core.utils.default_slugifier'
