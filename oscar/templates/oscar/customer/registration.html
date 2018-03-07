@@ -1,27 +1,66 @@
-{% extends "layout.html" %}
-
+{% extends "layout_1_col.html" %}
 {% load i18n %}
 
-{% block title %}
-    {% trans 'Register' %} | {{ block.super }}
+{% block header %}
+{% block navigation %}
+    {% include "partials/nav_primary.html" with expand_dropdown=1 %}
 {% endblock %}
-
-{% block breadcrumbs %}
-    <ul class="breadcrumb">
-        <li>
-            <a href="{{ homepage_url }}">{% trans 'Home' %}</a>
-        </li>
-        <li class="active">{% trans 'Register' %}</li>
-    </ul>
-{% endblock %}
-
-{% block headertext %}
-    {% trans "Register" %}
 {% endblock %}
 
 {% block content %}
-    <div class="row">
-        <div class="col-sm-6 register_form">
+<style>
+  body{
+        overflow-x:hidden;
+         background-image:url(/media/banner/1.jpg); background-repeat:no-repeat; -moz-background-size:100% 100%;
+        width: 100%;
+        min-height: 300px;
+        background-position: center;
+        background-size: cover;
+        display: table;
+        padding: 0px;
+        position: relative;
+       }
+       #mainmenu,#language_selector{
+         display:none
+         }
+		@media ( min-width: 768px) {
+        #advanturous{left: -1.5em;}
+		.col-md-offset-1 {
+        margin-left: 12.3%;}
+        }
+         .topicmenu>p{
+         text-align:left ;
+         font-size: 1em;
+         left:15%;
+		 width:55%;
+		 position:absolute;
+		 bottom:25%;}
+
+		  .topicmenu>a>h4{
+		  padding-bottom: 5px;
+            border-bottom: 1px solid;
+		   text-align:left ;
+		  width:34%;
+		  left:15%;
+		 position:absolute;
+		 bottom:12%;}
+
+		 .topicmenu{
+		  height:70vh;
+          text-align:center;
+         position:relative; }
+        .topicmenu>h3{
+		  width:100%;
+		 position:absolute;
+		 bottom:0px;}
+</style>
+ <section id="bg-primary">
+      <div class="container">
+          <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3 register_form" style="border: 2px solid;background-color: rgba(0,0,0,0.5);position:relative;
+    top:50%; ">
+            <h1 style="text-align:  center;">{% trans "Register" %}</h1>
+            <hr>
             <form id="register_form" action="." method="post" class="form-stacked">
                 {% csrf_token %}
                 {% include "partials/form_fields.html"  %}
@@ -31,5 +70,15 @@
                 {% endif %}
             </form>
         </div>
-    </div>
+         </div>
+          </div>
+
+  </section>
 {% endblock content %}
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+alert(1)
+    $(".page_inner").addClass("col-sm-3")}
+</script>

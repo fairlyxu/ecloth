@@ -22,9 +22,9 @@ ADMINS = (
     ('David Winterbottom', 'david.winterbottom@gmail.com'),
     ('Michael van Tellingen', 'michaelvantellingen@gmail.com'),
 )
-EMAIL_SUBJECT_PREFIX = '[Oscar sandbox] '
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
+EMAIL_SUBJECT_PREFIX = '[Fauve] '
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 MANAGERS = ADMINS
 
 # Use a Sqlite database by default
