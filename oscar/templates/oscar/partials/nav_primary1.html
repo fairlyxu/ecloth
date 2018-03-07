@@ -170,7 +170,7 @@ li>a{
                             {% if tree_categories %}
                                 {% for tree_category, info in tree_categories %}
                                     {% if info.has_children %}
-                                        <li class="dropdown navli text-center">
+                                        <li class="dropdown navli text-center" style="margin-top:10px;">
                                             <a tabindex="-1" href="{{ tree_category.get_absolute_url }}" class="dropdown-toggle" {% if not expand_dropdown %} data-toggle="dropdown"{% endif %}>{{ tree_category.name }}</a>
                                             <ul class="dropdown-menu" style="background-color: rgba(0, 0, 0, 0.5);min-width:1px;">
                                             {% else %}
