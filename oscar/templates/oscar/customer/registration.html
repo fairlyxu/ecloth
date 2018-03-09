@@ -1,9 +1,8 @@
 {% extends "layout_1_col.html" %}
 {% load i18n %}
-
 {% block header %}
 {% block navigation %}
-    {% include "partials/nav_primary.html" with expand_dropdown=1 %}
+    {% include "partials/nav_primaryforregis.html" with expand_dropdown=1 %}
 {% endblock %}
 {% endblock %}
 
@@ -20,51 +19,63 @@
         padding: 0px;
         position: relative;
        }
+       p{
+         margin:1em;
+         font-size: 1.5em;
+         font-weight: 400;
+       }
+       	usage-guid,.moresocail>p{
+          font-size: 0.5em;
+          margin-bottom: 5px;
+          font-weight: 300;
+          text-align: left;
+          }
+
+       	@media ( min-width: 500px) {
+       		usage-guid,.moresocail>p{
+       		  padding-left: 10em;
+       		}
+       	}
+
+       .form-group{
+         padding-left:3em;
+       }
+       #registration_btn{
+        color: #fff;
+        background-color: #bb9237;
+        border-color: #fff;
+        border-radius: 1px;
+       }
        #mainmenu,#language_selector{
          display:none
          }
-		@media ( min-width: 768px) {
-        #advanturous{left: -1.5em;}
-		.col-md-offset-1 {
-        margin-left: 12.3%;}
-        }
-         .topicmenu>p{
-         text-align:left ;
-         font-size: 1em;
-         left:15%;
-		 width:55%;
-		 position:absolute;
-		 bottom:25%;}
+       #fauve_logo{
+         visibility: hidden;
+         }
 
-		  .topicmenu>a>h4{
-		  padding-bottom: 5px;
-            border-bottom: 1px solid;
-		   text-align:left ;
-		  width:34%;
-		  left:15%;
-		 position:absolute;
-		 bottom:12%;}
+        #usage:hover{
+          #usage-guid{
+            display:none
+          }
 
-		 .topicmenu{
-		  height:70vh;
-          text-align:center;
-         position:relative; }
-        .topicmenu>h3{
-		  width:100%;
-		 position:absolute;
-		 bottom:0px;}
 </style>
- <section id="bg-primary">
+ <section id="register-block">
       <div class="container">
           <div class="row">
         <div class="col-xs-12 col-md-6 col-md-offset-3 register_form" style="border: 2px solid;background-color: rgba(0,0,0,0.5);position:relative;
     top:50%; ">
-            <h1 style="text-align:  center;">{% trans "Register" %}</h1>
+            <img src="/media/fauve_log.png" style="width:60%;margin-top: 2em;" class="center-block">
             <hr>
             <form id="register_form" action="." method="post" class="form-stacked">
                 {% csrf_token %}
-                {% include "partials/form_fields.html"  %}
-                <button name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg" data-loading-text="{%trans 'Registering...' %}">{% trans 'Register' %}</button>
+                {% include "partials/form_fields.html" with form=registration_form %}
+                <div class="col-sm-6 col-sm-offset-3 ">
+                    <button id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
+
+                </div>
+                <div class="col-sm-2" style="text-align:center;line-height: 3;" id="usage">
+                    <small onclick="usageClick()">使用说明</small>
+                </div>
                 {% if cancel_url %}
                     {% trans "or" %} <a href="{{ cancel_url }}">{% trans "cancel" %}</a>.
                 {% endif %}
@@ -72,13 +83,46 @@
         </div>
          </div>
           </div>
+ </section>
 
-  </section>
+ <section id="usage-guid" style="display:none" onclick="confirmUsage()">
+      <div class="container">
+          <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3 register_form" style="border: 2px solid;background-color: rgba(0,0,0,0.5);position:relative;
+    top:50%; ">
+             <img src="/media/fauve_log.png" style="width:60%;margin-top: 2em;" class="center-block">
+            <hr>
+            <div style="text-align:center">
+                <p>使用说明：</p>
+                <div class="moresocail" style="margin-bottom: 2em;">
+                    <p>1. 此代金券仅为产品正式上线前提前注册用户提供。</p>
+                    <p>2.每张代金券仅可使用一次。</p>
+                    <p>3.此代金券无门槛使用，饼可与其他优惠同时享受。</p>
+                    <p>4.订单取消，代金券不予退还。</p>
+                </div>
+            </div>
+        </div>
+          </div>
+      </div>
+ </section>
+<script>
+ function usageClick(){
+ $("#register-block").hide()
+ $("#usage-guid").show()
+    }
+
+  function confirmUsage(){
+    $("#register-block").show()
+    $("#usage-guid").hide()
+  }
+</script>
+
+<style>
+
+     #id_registration-email,#id_registration-password1,#id_registration-password2{
+        background-color: rgba(0,0,0,0.2);
+        color: #fff;
+         }
+</style>
 {% endblock content %}
 
-
-<script type="text/javascript">
-$(document).ready(function () {
-alert(1)
-    $(".page_inner").addClass("col-sm-3")}
-</script>

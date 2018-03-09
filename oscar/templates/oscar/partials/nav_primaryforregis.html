@@ -1,0 +1,191 @@
+{% load currency_filters %}
+{% load category_tags %}
+{% load i18n %}
+<style>
+@media( min-width: 768px) {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+background-color:transparent;
+ }
+#browse>li>a:hover{
+  border-bottom: 2px solid #fff;
+ }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;!important;
+    color: #fff;}
+
+.navbar-inverse {
+    background-color:transparent;
+    border-color: transparent;
+    }
+.nav-opt{top: 2em;}
+.navli{width: 10%; margin: 3px 3%;}
+}
+.open{ background-color:#transparent!important;}
+
+#accountnav>li{
+  float:left;
+}
+li>a{
+ color:#f8f8f8!important;
+ }
+.dropdown-menu > li > a{
+    display: initial;}
+</style>
+<!-- 语言 账户-->
+<div id="top_page" class="navbar navbar-default navbar-static-top accounts" style="background-color: transparent;border-color: transparent;">
+    {# This is used in mobile view #}
+    <div class="navbar-header">
+        <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".account-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+    </div>
+    <div class="navbar-collapse account-collapse collapse">
+        <div class="container-fluid">
+            {% block nav_account_languages %}
+            {% if LANGUAGES|length > 1 %}
+             <div class="col-lg-3 col-sm-3 text-center nav-opt">
+                 <form id="language_selector" class="navbar-left navbar-form" action="{% url 'set_language' %}" method="post">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ language_neutral_url_path }}" />
+                    <div class="form-group">
+                        <select name="language" class="form-control">
+                            {% get_language_info_list for LANGUAGES as languages %}
+                            {% for language in languages %}
+                                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE%} selected="selected"{% endif %}>
+                                    {{ language.name_local }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button class="btn btn-default" type="submit" data-loading-text="{% trans 'Submitting...' %}">{% trans "Go" %}</button>
+                </form>
+            {% endif %}
+            {% endblock %}
+             </div>
+             <div class="col-lg-6 col-sm-6 text-center" id="fauve_logo">
+               <div style="color:#f8f8f8">
+                  <p style="font-size: 4em;margin-bottom:0">FAUVE</p>
+                  <p >NEW&nbsp;&nbsp;YOURK</p>
+               </div>
+            </div>
+            <div class="col-lg-3 col-sm-3 text-center">
+            <ul class="nav navbar-nav navbar-right" id="accountnav">
+                {% if user.is_authenticated %}
+                {% block nav_account_navbar_authenticated %}
+                    <li>
+                        {% if num_unread_notifications > 0 %}
+                            {# If user has new notifications - we change account link to go to inbox #}
+                            <a href="{% url 'customer:notifications-inbox' %}">
+                                <i class="icon-user"></i>
+                                {% trans "Account" %}
+                                <span class="label label-warning">{{ num_unread_notifications }}</span>
+                            </a>
+                        {% else %}
+                            <a href="{% url 'customer:summary' %}"><i class="icon-user"></i></a>
+                        {% endif %}
+                    </li>
+                    {% if user.is_staff or perms.partner.dashboard_access %}
+                    <li><a href="{% url 'dashboard:index' %}"><i class="icon-list-ul"></i></a></li>
+                    {% endif %}
+                    <li id="basketcart"><a id="basket_link" href="{% url 'basket:summary' %}"><i class="glyphicon glyphicon-shopping-cart"></i>
+                        <span class="btn-group" >
+                            <ul class="dropdown-menu pull-right" style="width: 400px;padding-bottom: 0px;max-width: none;z-index: 9999;">
+                                <li>{% include "basket/partials/basket_quick.html" %}</li>
+                            </ul>
+                        </span>
+                    </a></li>
+                    <li><a id="logout_link" href="{% url 'customer:logout' %}"><i class="icon-signout"></i></a></li>
+                    <li><a id="search_link" onclick="showSearch()"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    <form method="get" action="{% url 'search:search' %}" class="navbar-form navbar-right hidden" id="search" style="margin-top: -10px;" >
+                        <div class="form-group">
+                            {{ search_form.q }}
+                        </div>
+                        <input type="submit" value="{% trans "Search" %}" class="btn btn-default" />
+                    </form>
+                {% endblock %}
+                {% else %}
+                    <li><a id="login_link" href="{% url 'customer:register' %}"><i class="icon-signin"></i>  提前注册领取代金券</a></li>
+                {% endif %}
+            </ul>
+                 </div>
+        </div>
+    </div>
+</div>
+<div class="navbar primary navbar-static-top navbar-inverse center-block" style="width: 86%;" id="mainmenu">
+    <div class="container-fluid">
+        <div class="navbar-header pull-right">
+            {# This is used in mobile view #}
+            <a class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target=".primary-collapse">
+                <span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </span>
+            </a>
+        </div>
+        <a class="btn btn-default navbar-btn btn-cart navbar-right visible-xs-inline-block" href="{% url 'basket:summary' %}">
+            <i class="icon-shopping-cart"></i>
+            {% trans "Basket" %}
+            {% if not request.basket.is_empty %}
+                {% if request.basket.is_tax_known %}
+                    {% blocktrans with total=request.basket.total_incl_tax|currency:request.basket.currency %}
+                        Total: {{ total }}
+                    {% endblocktrans %}
+                {% else %}
+                    {% blocktrans with total=request.basket.total_excl_tax|currency:request.basket.currency %}
+                        Total: {{ total }}
+                    {% endblocktrans %}
+                {% endif %}
+            {% endif %}
+        </a>
+        <div class="navbar-collapse primary-collapse collapse">
+            {% block nav_dropdown %}
+                <ul id="browse" class="nav navbar-nav"  style="width: 100%; ">
+                    {% category_tree depth=2 as tree_categories %}
+                            {% if tree_categories %}
+                                {% for tree_category, info in tree_categories %}
+                                    {% if info.has_children %}
+                                        <li class="dropdown navli text-center" style="margin-top:10px;">
+                                            <a tabindex="-1" href="{{ tree_category.get_absolute_url }}" class="dropdown-toggle" {% if not expand_dropdown %} data-toggle="dropdown"{% endif %}>{{ tree_category.name }}</a>
+                                            <ul class="dropdown-menu" style="background-color: rgba(0, 0, 0, 0.5);min-width:1px;">
+                                            {% else %}
+                                                <li class="navli text-center" style="margin-top:10px;"><a tabindex="-1" href="{{ tree_category.get_absolute_url }}">{{ tree_category.name }}</a></li>
+                                            {% endif %}
+                                            {% for close in info.num_to_close %}
+                                                </ul>
+                                        </li>
+                                            {% endfor %}
+                                {% endfor %}
+                            {% endif %}
+                    {% block nav_extra %}
+                    {% endblock %}
+                </ul>
+            {% endblock %}
+            <!--{% include "partials/search.html" %}-->
+        </div><!-- /navbar-collapse -->
+    </div>
+</div><!-- /navbar -->
+{% load staticfiles %}
+<script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
+    <script>
+    $(document).ready(function(){
+        dropdownOpen();
+        });
+    function dropdownOpen() {
+        var $dropdownLi = $('li.dropdown');
+        $dropdownLi.mouseover(function() {
+        $(this).addClass('open');
+        // $(this).addClass('active');
+        }).mouseout(function() {
+        $(this).removeClass('open');
+         //$(this).removeClass('active');
+         });}
+    function showSearch(){
+          var $searchtmp = $('#search');
+          $($searchtmp).toggleClass('hidden');
+          }
+    </script>
