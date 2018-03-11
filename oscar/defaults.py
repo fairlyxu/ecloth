@@ -73,12 +73,12 @@ OSCAR_EAGER_ALERTS = True
 
 # Registration
 OSCAR_SEND_REGISTRATION_EMAIL = True
-OSCAR_FROM_EMAIL = '635316960@qq.com'
+OSCAR_FROM_EMAIL = 'contact@fauvenewyork.com'
 EMAIL_USE_SSL = True
-EMAIL_HOST = 'smtp.qq.com'
+EMAIL_HOST = 'smtp.exmail.qq.com'#'smtp.qq.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = '635316960@qq.com'
-EMAIL_HOST_PASSWORD = 'xfl8023le'
+EMAIL_HOST_USER = 'contact@fauvenewyork.com'
+EMAIL_HOST_PASSWORD = 'Fauve123456'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Slug handling

@@ -287,6 +287,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LOGIN_REDIRECT_URL = '/'
 APPEND_SLASH = True
+REGISTER_SUCC_REDIRECT_URL = '/register/hello'
 
 # ====================
 # Messages contrib app
@@ -328,7 +329,7 @@ from oscar.defaults import *
 # Meta
 # ====
 
-OSCAR_SHOP_TAGLINE = 'clothshop'
+OSCAR_SHOP_TAGLINE = 'fauve'
 
 OSCAR_RECENTLY_VIEWED_PRODUCTS = 20
 OSCAR_ALLOW_ANON_CHECKOUT = True

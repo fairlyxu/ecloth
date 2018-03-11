@@ -1,0 +1,122 @@
+{% load currency_filters %}
+{% load category_tags %}
+{% load i18n %}
+<style>
+video#bgvid{
+      position: fixed; right: 0; bottom: 0;
+      min-width: 100%; min-height: 100%;
+      width: auto; height: auto; z-index: -100;
+      background: url(/media/banner/4.jpg) no-repeat;
+      background-size: cover;
+    }
+        .register_form{
+        height:420px;}
+@media( min-width: 768px) {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+background-color:transparent;
+ }
+#browse>li>a:hover{
+  border-bottom: 2px solid #fff;
+ }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: transparent;!important;
+    color: #fff;}
+
+.navbar-inverse {
+    background-color:transparent;
+    border-color: transparent;
+    }
+.nav-opt{top: 2em;}
+.navli{width: 10%; margin: 3px 3%;}
+}
+.open{ background-color:#transparent!important;}
+
+#accountnav>li{
+  float:left;
+}
+li>a{
+ color:#f8f8f8!important;
+ }
+.dropdown-menu > li > a{
+    display: initial;}
+</style>
+<!-- 语言 账户-->
+<div id="top_page" class="navbar navbar-default navbar-static-top accounts" style="background-color: transparent;border-color: transparent;">
+    <div class="">
+        <div class="container-fluid">
+            {% block nav_account_languages %}
+            {% if LANGUAGES|length > 1 %}
+             <div class="col-lg-3 col-sm-3 text-center nav-opt">
+
+            {% endif %}
+            {% endblock %}
+             </div>
+             <div class="col-lg-6 col-sm-6 col-xs-12 text-center" id="fauve_logo">
+                <img src="/media/fauve_log.png" style="width:100%;margin-top: -8%;">
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 hidden-xs text-center">
+            <ul class="nav navbar-nav navbar-right" id="accountnav">
+                {% if user.is_authenticated %}
+                {% block nav_account_navbar_authenticated %}
+                    <li>
+                        {% if num_unread_notifications > 0 %}
+                            {# If user has new notifications - we change account link to go to inbox #}
+                            <a href="{% url 'customer:notifications-inbox' %}">
+                                <i class="icon-user"></i>
+                                {% trans "Account" %}
+                                <span class="label label-warning">{{ num_unread_notifications }}</span>
+                            </a>
+                        {% else %}
+                            <a href="{% url 'customer:summary' %}"><i class="icon-user"></i></a>
+                        {% endif %}
+                    </li>
+                    {% if user.is_staff or perms.partner.dashboard_access %}
+                    <li><a href="{% url 'dashboard:index' %}"><i class="icon-list-ul"></i></a></li>
+                    {% endif %}
+                    <li id="basketcart"><a id="basket_link" href="{% url 'basket:summary' %}"><i class="glyphicon glyphicon-shopping-cart"></i>
+                        <span class="btn-group" >
+                            <ul class="dropdown-menu pull-right" style="width: 400px;padding-bottom: 0px;max-width: none;z-index: 9999;">
+                                <li>{% include "basket/partials/basket_quick.html" %}</li>
+                            </ul>
+                        </span>
+                    </a></li>
+                    <li><a id="logout_link" href="{% url 'customer:logout' %}"><i class="icon-signout"></i></a></li>
+                    <li><a id="search_link" onclick="showSearch()"><i class=" glyphicon glyphicon-search"></i></a></li>
+                    <form method="get" action="{% url 'search:search' %}" class="navbar-form navbar-right hidden" id="search" style="margin-top: -10px;" >
+                        <div class="form-group">
+                            {{ search_form.q }}
+                        </div>
+                        <input type="submit" value="{% trans "Search" %}" class="btn btn-default" />
+                    </form>
+                {% endblock %}
+                {% else %}
+                    <li><a id="login_link" href="{% url 'customer:register' %}"><span id="voucher">提前注册领取代金券</span>&nbsp;&nbsp;<i class="icon-user"></i></a></li>
+                {% endif %}
+            </ul>
+                 </div>
+        </div>
+    </div>
+</div>
+
+{% load staticfiles %}
+<script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
+    <script>
+    $(document).ready(function(){
+        dropdownOpen();
+        });
+    function dropdownOpen() {
+        var $dropdownLi = $('li.dropdown');
+        $dropdownLi.mouseover(function() {
+        $(this).addClass('open');
+        // $(this).addClass('active');
+        }).mouseout(function() {
+        $(this).removeClass('open');
+         //$(this).removeClass('active');
+         });}
+    function showSearch(){
+          var $searchtmp = $('#search');
+          $($searchtmp).toggleClass('hidden');
+          }
+    </script>
