@@ -12,7 +12,7 @@ DEBUG = env.bool('DEBUG', default=True)
 
 ALLOWED_HOSTS = [
     #'latest.oscarcommerce.com',
-    #'master.oscarcommerce.com',
+    'www.interestm.com',
     'localhost',
     '127.0.0.1',
 ]
