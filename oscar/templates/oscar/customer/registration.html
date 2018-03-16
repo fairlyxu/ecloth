@@ -7,7 +7,13 @@
 {% endblock %}
 {% block content %}
 <style>
-
+#id_registration-password2{
+  display:none;
+}
+label[for='id_registration-password2']
+{
+   display:none;
+}
        .register_form{
         padding:0;
         border:1px solid rgba(255,255,255,0.75);
@@ -79,7 +85,7 @@
                     {% csrf_token %}
                     {% include "partials/form_fields.html" with form=registration_form %}
                     <div class="col-sm-6 col-sm-offset-3 ">
-                        <button id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
+                        <button onclick="regis_btn()" id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
 
                     </div>
                     <div class="col-sm-2" style="text-align:center;line-height: 3;" id="usage">
@@ -123,6 +129,11 @@
   function confirmUsage(){
     $("#register-block").show()
     $("#usage-guid").hide()
+  }
+    
+     function regis_btn(){
+    pass1 = $("#id_registration-password1").val()
+    $("#id_registration-password2").val(pass1)
   }
 </script>
 
