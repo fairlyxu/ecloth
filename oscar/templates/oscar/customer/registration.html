@@ -7,7 +7,36 @@
 {% endblock %}
 {% block content %}
 <style>
+#id_registration-password2,.alert{
+  display:none;
+}
+label[for='id_registration-password2'],label[for='id_registration-password1'],label[for='id_registration-email']
+{
+   display:none;
+}
+.form-control{
+ height: 40px;
+}
+ 
+ .form-group{
+         padding:0 3em;
+       }
 
+#id_registration-password2{
+  display:none;
+}
+label[for='id_registration-password2']
+{
+   display:none;
+}
+@media ( max-width: 450px) {
+    #fauve_logo{
+    display:none;}
+      #registration_btn{
+       		height: 40px;
+             width: 85%;
+       		}
+    }
        .register_form{
         padding:0;
         border:1px solid rgba(255,255,255,0.75);
@@ -22,10 +51,10 @@
          font-weight: 100;
        }
        	usage-guid,.moresocail>p{
-          font-size: 0.5em;
+          font-size: 1em;
           margin-bottom: 5px;
           font-weight: 100;
-          text-align: left;
+          text-align: center;
           }
 
        input:focus {
@@ -36,10 +65,16 @@
           visibility:hidden;
         }
        	@media ( min-width: 500px) {
+ #register-block,#usage-guid{
+ margin-top:15vh;}
        		usage-guid,.moresocail>p{
-       		  padding-left: 10em;
+       		 text-align: center;
        		}
-       	}
+       	 #registration_btn{
+       		height: 40px;
+             width: 85%;
+       		}
+        }
 
        .form-group{
          padding-left:3em;
@@ -72,17 +107,16 @@
  <section id="register-block">
       <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-6 col-md-offset-3 register_form">
+            <div class="col-xs-12 col-md-4 col-md-offset-4 register_form">
                 <img src="/media/fauve_log.png" style="width:45%;margin-top:3em;" class="center-block">
-                <hr  style="border: 0.25px solid rgba(255,255,255,0.25);">
+                <hr  style="border: 1px solid rgba(255,255,255,0.25);">
                 <form id="register_form" action="." method="post" class="form-stacked">
                     {% csrf_token %}
                     {% include "partials/form_fields.html" with form=registration_form %}
-                    <div class="col-sm-6 col-sm-offset-3 ">
-                        <button id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
-
+                      <div class="col-sm-12" style="margin-top: -15px;">
+                        <button onclick="regis_btn()" id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
                     </div>
-                    <div class="col-sm-2" style="text-align:center;line-height: 3;" id="usage">
+                    <div class="col-sm-12" style="text-align:center;line-height: 3;" id="usage">
                         <small onclick="usageClick()">使用说明</small>
                     </div>
                     {% if cancel_url %}
@@ -97,16 +131,16 @@
  <section id="usage-guid" style="display:none" onclick="confirmUsage()">
       <div class="container">
           <div class="row">
-        <div class="col-xs-12 col-md-6 col-md-offset-3 register_form" style="border: 1px solid  rgba(255,255,255,0.75);background-color: rgba(0,0,0,0.5);position:relative;
+        <div class="col-xs-12 col-md-4 col-md-offset-4 register_form" style="border: 1px solid  rgba(255,255,255,0.75);background-color: rgba(0,0,0,0.5);position:relative;
     top:50%; ">
              <img src="/media/fauve_log.png" style="width:45%;margin-top: 3em;" class="center-block">
-            <hr style="border: 0.25px solid rgba(255,255,255,0.25);">
+            <hr style="border: 1px solid rgba(255,255,255,0.25);">
             <div style="text-align:center">
                 <p style="font-size: 1.2em;">使用说明：</p>
-                <div class="moresocail" style="margin-bottom: 2em;">
+                <div class="moresocail" style="margin-top: 35px;">
                     <p>1. 此代金券仅为产品正式上线前提前注册用户提供。</p>
                     <p>2.每张代金券仅可使用一次。</p>
-                    <p>3.此代金券无门槛使用，饼可与其他优惠同时享受。</p>
+                    <p>3.此代金券无门槛使用，并可与其他优惠同时享受。</p>
                     <p>4.订单取消，代金券不予退还。</p>
                 </div>
             </div>
@@ -115,7 +149,13 @@
       </div>
  </section>
 <script>
- function usageClick(){
+$(".form-group>div").removeClass("col-xs-6").addClass("col-xs-12");
+$("#id_registration-email").prop('placeholder','邮 箱')
+$("#id_registration-password1").prop('placeholder','密 码')
+$("input").focus(function() { // 获得焦点事件
+    $(this).val("");
+}); 
+function usageClick(){
  $("#register-block").hide()
  $("#usage-guid").show()
     }
@@ -123,6 +163,10 @@
   function confirmUsage(){
     $("#register-block").show()
     $("#usage-guid").hide()
+  }
+ function regis_btn(){
+    pass1 = $("#id_registration-password1").val()
+    $("#id_registration-password2").val(pass1)
   }
 </script>
 

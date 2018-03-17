@@ -1,0 +1,2488 @@
+[2018-03-11 16:27:26,276] "GET /register/hello HTTP/1.1" 200 8251
+[2018-03-11 16:27:26,312] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1867776
+[2018-03-11 16:27:26,312] - Broken pipe from ('115.172.254.120', 53187)
+
+[2018-03-11 16:27:26,315] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:27:26,333] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:27:26,473] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:27:26,474] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2018-03-11 16:27:26,595] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-11 16:27:32,787] "GET /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-11 16:27:32,812] "GET / HTTP/1.1" 302 0
+[2018-03-11 16:27:32,910] "GET /zh-cn/ HTTP/1.1" 200 16926
+[2018-03-11 16:27:33,072] "GET /media/vedio720p.mp4 HTTP/1.1" 200 3555328
+[2018-03-11 16:27:33,073] - Broken pipe from ('115.172.254.120', 53193)
+
+[2018-03-11 16:27:33,734] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-11 16:27:34,500] "GET /welcome HTTP/1.1" 200 7219
+[2018-03-11 16:27:40,254] "GET /welcome HTTP/1.1" 200 7219
+[2018-03-11 16:27:40,285] "GET /media/vedio480p.mp4 HTTP/1.1" 200 3653632
+[2018-03-11 16:27:40,285] - Broken pipe from ('115.172.254.120', 53200)
+
+[2018-03-11 16:27:40,577] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:27:40,789] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-11 16:27:54,745] "GET /welcome HTTP/1.1" 200 5867
+[2018-03-11 16:27:54,994] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:27:54,997] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:27:54,998] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:27:54,999] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:27:55,022] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:27:55,032] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:27:55,032] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:27:55,036] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:27:55,078] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:27:55,079] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:27:55,169] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:27:55,176] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:27:55,325] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:27:55,325] - Broken pipe from ('115.172.254.120', 63696)
+
+[2018-03-11 16:27:58,345] "GET /zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-11 16:27:58,427] "GET /zh-cn/accounts/profile/ HTTP/1.1" 200 18656
+[2018-03-11 16:27:58,487] "GET /media/vedio480p.mp4 HTTP/1.1" 200 5799936
+[2018-03-11 16:27:58,487] - Broken pipe from ('115.172.254.120', 53202)
+
+[2018-03-11 16:27:58,994] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-11 16:28:00,454] "GET /zh-cn/accounts/profile/delete/ HTTP/1.1" 200 18441
+[2018-03-11 16:28:06,863] "POST /zh-cn/accounts/profile/delete/ HTTP/1.1" 302 0
+[2018-03-11 16:28:06,918] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-11 16:29:54,479] "GET /zh-cn/accounts/profile/delete/ HTTP/1.1" 302 0
+[2018-03-11 16:29:54,515] "GET /accounts/login/?next=/zh-cn/accounts/profile/delete/ HTTP/1.1" 302 0
+[2018-03-11 16:29:54,578] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/profile/delete/ HTTP/1.1" 200 19726
+[2018-03-11 16:29:56,164] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-11 16:29:57,771] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/profile/delete/ HTTP/1.1" 200 19237
+[2018-03-11 16:29:58,396] "GET /zh-cn/accounts/profile/ HTTP/1.1" 302 0
+[2018-03-11 16:29:58,418] "GET /accounts/login/?next=/zh-cn/accounts/profile/ HTTP/1.1" 302 0
+[2018-03-11 16:29:58,480] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/profile/ HTTP/1.1" 200 19209
+[2018-03-11 16:29:59,407] "GET /welcome HTTP/1.1" 200 5858
+[2018-03-11 16:29:59,446] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:29:59,565] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:30:02,182] "GET /media/banner/7.png HTTP/1.1" 200 1531904
+[2018-03-11 16:30:02,182] - Broken pipe from ('115.172.254.120', 53240)
+
+[2018-03-11 16:30:02,183] "GET /media/vedio480p.mp4 HTTP/1.1" 200 622592
+[2018-03-11 16:30:02,183] - Broken pipe from ('115.172.254.120', 53243)
+
+[2018-03-11 16:30:02,789] "GET /welcome HTTP/1.1" 200 5858
+[2018-03-11 16:30:02,812] "GET /media/vedio480p.mp4 HTTP/1.1" 200 458752
+[2018-03-11 16:30:02,812] - Broken pipe from ('115.172.254.120', 53245)
+
+[2018-03-11 16:30:02,873] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:30:03,110] "GET /media/banner/7.jpg HTTP/1.1" 404 1777
+[2018-03-11 16:30:09,517] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:30:17,204] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:30:17,379] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-11 16:30:54,264] "GET /media/vedio480p.mp4 HTTP/1.1" 200 10268147
+[2018-03-11 16:30:58,034] "GET /welcome HTTP/1.1" 200 5858
+[2018-03-11 16:30:58,084] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:30:58,088] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:30:58,088] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:30:58,091] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:30:58,171] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:30:58,171] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:30:58,175] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:30:58,175] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:30:58,209] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:30:58,233] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:30:58,352] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:30:59,548] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:31:00,836] "GET /media/banner/7.png HTTP/1.1" 200 483328
+[2018-03-11 16:31:00,836] - Broken pipe from ('115.172.254.120', 53480)
+
+[2018-03-11 16:31:00,839] "GET /media/vedio480p.mp4 HTTP/1.1" 200 819200
+[2018-03-11 16:31:00,840] - Broken pipe from ('115.172.254.120', 53482)
+
+[2018-03-11 16:31:01,488] "GET /welcome HTTP/1.1" 200 5858
+[2018-03-11 16:31:03,209] "GET /media/vedio480p.mp4 HTTP/1.1" 200 1392640
+[2018-03-11 16:31:03,209] - Broken pipe from ('115.172.254.120', 53496)
+
+[2018-03-11 16:31:03,798] "GET /welcome HTTP/1.1" 200 5858
+[2018-03-11 16:31:03,846] "GET /media/vedio480p.mp4 HTTP/1.1" 200 360448
+[2018-03-11 16:31:03,847] - Broken pipe from ('115.172.254.120', 53506)
+
+[2018-03-11 16:31:03,848] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:31:03,849] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:31:03,850] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:31:03,859] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:31:03,933] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:31:03,933] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:31:03,934] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:31:03,969] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:31:04,120] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:31:04,649] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:31:04,733] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:31:08,271] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:31:19,263] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:31:37,794] "GET /welcome HTTP/1.1" 200 5877
+[2018-03-11 16:31:37,847] "GET /media/vedio480p.mp4 HTTP/1.1" 200 8134656
+[2018-03-11 16:31:37,848] - Broken pipe from ('115.172.254.120', 53529)
+
+[2018-03-11 16:31:37,853] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:31:37,855] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:31:37,859] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:31:37,862] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:31:37,947] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:31:37,949] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:31:37,951] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:31:37,951] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:31:38,006] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:31:38,027] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:31:38,483] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:31:39,668] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:31:44,410] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:31:57,583] "GET /welcome HTTP/1.1" 200 5878
+[2018-03-11 16:31:57,609] "GET /media/vedio480p.mp4 HTTP/1.1" 200 5808128
+[2018-03-11 16:31:57,610] - Broken pipe from ('115.172.254.120', 53679)
+
+[2018-03-11 16:31:57,637] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:31:57,637] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:31:57,638] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:31:57,645] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:31:57,711] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:31:57,736] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:31:57,737] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:31:57,738] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:31:57,766] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:31:57,777] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:31:57,939] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:31:59,102] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:32:11,767] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:32:37,432] "GET /welcome HTTP/1.1" 200 5864
+[2018-03-11 16:32:37,466] "GET /media/vedio480p.mp4 HTTP/1.1" 200 8011776
+[2018-03-11 16:32:37,466] - Broken pipe from ('115.172.254.120', 53774)
+
+[2018-03-11 16:32:37,482] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:32:37,482] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:32:37,484] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:32:37,504] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:32:37,693] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:32:37,694] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:32:37,695] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:32:37,708] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:32:37,746] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:32:37,753] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:32:37,910] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:32:41,622] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:32:45,186] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:33:09,843] "GET /welcome HTTP/1.1" 200 5864
+[2018-03-11 16:33:09,865] "GET /media/vedio480p.mp4 HTTP/1.1" 200 7102464
+[2018-03-11 16:33:09,866] - Broken pipe from ('115.172.254.120', 53957)
+
+[2018-03-11 16:33:09,887] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:33:09,888] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:33:09,892] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:33:09,896] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:33:09,963] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:33:09,989] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:33:09,990] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:33:09,990] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:33:10,022] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:33:10,032] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:33:10,174] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:33:12,032] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:33:16,619] "GET /welcome HTTP/1.1" 200 5864
+[2018-03-11 16:33:16,745] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:33:16,745] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:33:16,746] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:33:16,747] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:33:16,799] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:33:16,801] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:33:16,801] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:33:16,801] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:33:16,854] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:33:16,855] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:33:16,876] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:33:17,062] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:33:17,203] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:33:17,203] - Broken pipe from ('115.172.254.120', 63735)
+
+[2018-03-11 16:33:18,007] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:33:18,717] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11716
+[2018-03-11 16:33:19,194] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:33:19,195] - Broken pipe from ('115.172.254.120', 63737)
+
+[2018-03-11 16:33:24,144] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11716
+[2018-03-11 16:33:24,376] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[2018-03-11 16:33:24,376] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-11 16:33:24,377] - Broken pipe from ('115.172.254.120', 63746)
+
+[2018-03-11 16:33:25,331] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11716
+[2018-03-11 16:33:25,684] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:33:25,684] - Broken pipe from ('115.172.254.120', 63750)
+
+[2018-03-11 16:33:51,389] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11716
+[2018-03-11 16:33:51,424] "GET /media/vedio480p.mp4 HTTP/1.1" 200 8282112
+[2018-03-11 16:33:51,424] - Broken pipe from ('115.172.254.120', 54100)
+
+[2018-03-11 16:33:51,441] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:33:51,442] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:33:51,442] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:33:51,485] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:33:51,540] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:33:51,540] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:33:51,540] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:33:51,559] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:33:51,586] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:33:51,588] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:33:51,713] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:33:55,525] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:34:00,028] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:35:42,442] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 16:38:26,155] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11781
+[2018-03-11 16:38:26,178] "GET /media/vedio720p.mp4 HTTP/1.1" 200 53575680
+[2018-03-11 16:38:26,178] - Broken pipe from ('115.172.254.120', 54770)
+
+[2018-03-11 16:38:26,191] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:38:26,199] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:38:26,200] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:38:26,494] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:38:26,705] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:38:26,705] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:38:26,705] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:38:26,743] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:38:27,069] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:38:27,173] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:38:27,530] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:38:31,073] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:38:32,335] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:38:34,638] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11781
+[2018-03-11 16:38:34,748] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:34,752] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:34,753] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:34,753] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:34,907] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:35,003] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:35,003] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:35,020] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:35,052] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:35,059] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:35,061] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:35,812] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:36,104] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:36,104] - Broken pipe from ('115.172.254.120', 63796)
+
+[2018-03-11 16:38:38,261] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11781
+[2018-03-11 16:38:38,401] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:38,404] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:38,407] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:38,414] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:38,557] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:38,557] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:38,558] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:38,560] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:38,604] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:38,606] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:38,606] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:38,607] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:38,787] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:38,788] - Broken pipe from ('115.172.254.120', 63813)
+
+[2018-03-11 16:38:43,123] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:43,123] - Broken pipe from ('115.172.254.120', 63816)
+
+[2018-03-11 16:38:45,022] "GET /welcome HTTP/1.1" 200 5929
+[2018-03-11 16:38:45,102] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:45,110] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:45,111] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:45,135] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:45,160] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:45,160] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:45,168] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:45,183] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:45,224] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:45,237] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:45,241] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:45,286] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:45,420] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:45,420] - Broken pipe from ('115.172.254.120', 63830)
+
+[2018-03-11 16:38:49,467] "GET /welcome HTTP/1.1" 200 5929
+[2018-03-11 16:38:49,614] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:49,615] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:49,622] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:49,624] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:49,721] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:49,809] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:49,809] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:49,821] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:49,829] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:49,847] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:49,853] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:49,859] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:50,052] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:50,052] - Broken pipe from ('115.172.254.120', 63845)
+
+[2018-03-11 16:38:51,483] "GET /welcome HTTP/1.1" 200 5929
+[2018-03-11 16:38:51,577] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:51,586] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:51,586] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:51,586] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:51,615] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:51,640] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:51,641] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:51,641] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:51,665] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:51,680] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:51,680] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:51,780] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:51,914] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:51,915] - Broken pipe from ('115.172.254.120', 63859)
+
+[2018-03-11 16:38:56,488] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:56,488] - Broken pipe from ('115.172.254.120', 63860)
+
+[2018-03-11 16:38:57,518] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11781
+[2018-03-11 16:38:57,603] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:57,603] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:38:57,608] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:38:57,612] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:38:57,669] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:57,672] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:38:57,673] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:38:57,676] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:38:57,716] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:38:57,718] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:38:57,719] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:38:57,845] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:38:57,985] "GET /media/vedio720p.mp4 HTTP/1.1" 200 147456
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[2018-03-11 16:38:57,986] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-11 16:38:57,986] - Broken pipe from ('115.172.254.120', 63874)
+
+[2018-03-11 16:38:59,029] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:38:59,029] - Broken pipe from ('115.172.254.120', 63875)
+
+[2018-03-11 16:39:00,578] "GET /welcome HTTP/1.1" 200 5929
+[2018-03-11 16:39:00,650] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:39:00,669] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:39:00,685] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:39:00,686] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:39:00,729] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:39:00,729] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:39:00,744] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:39:00,745] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:39:00,781] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:39:00,781] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:39:00,813] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:39:00,889] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:39:01,131] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:39:01,132] - Broken pipe from ('115.172.254.120', 63889)
+
+[2018-03-11 16:39:14,004] "GET /welcome HTTP/1.1" 200 5929
+[2018-03-11 16:39:14,038] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:39:14,039] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:39:14,039] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:39:14,042] "GET /media/vedio720p.mp4 HTTP/1.1" 200 22773760
+[2018-03-11 16:39:14,042] - Broken pipe from ('115.172.254.120', 55455)
+
+[2018-03-11 16:39:14,305] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:39:14,309] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:39:14,328] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:39:14,510] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:39:14,758] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:39:14,875] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:39:14,911] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:39:14,932] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:39:17,591] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:39:19,578] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:40:07,873] "GET /media/vedio480p.mp4 HTTP/1.1" 200 10268147
+[2018-03-11 16:41:26,145] "GET /welcome HTTP/1.1" 200 5857
+[2018-03-11 16:41:26,188] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:41:26,193] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:41:26,197] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:41:26,200] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:41:26,293] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:41:26,298] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:41:26,299] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:41:26,299] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:41:26,364] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:41:26,387] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:41:26,632] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:41:30,291] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:41:31,384] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11709
+[2018-03-11 16:41:31,422] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:41:31,430] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:41:31,431] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:41:31,442] "GET /media/banner/7.png HTTP/1.1" 200 1466368
+[2018-03-11 16:41:31,442] - Broken pipe from ('115.172.254.120', 56227)
+
+[2018-03-11 16:41:31,664] "GET /media/vedio480p.mp4 HTTP/1.1" 200 1146880
+[2018-03-11 16:41:31,665] - Broken pipe from ('115.172.254.120', 56233)
+
+[2018-03-11 16:41:31,674] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:41:35,512] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:41:35,976] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:43:23,639] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11779
+[2018-03-11 16:43:23,688] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 16:43:23,690] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 16:43:23,692] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 16:43:23,785] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 16:43:23,785] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 16:43:23,829] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 16:43:23,869] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 16:43:23,878] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 16:43:23,879] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 16:43:23,880] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 16:43:23,917] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 16:43:26,606] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 16:43:29,020] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 16:43:47,185] "GET /welcome HTTP/1.1" 200 5857
+[2018-03-11 16:43:47,301] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 16:43:47,303] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:43:47,351] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 16:43:47,352] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 16:43:47,358] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 16:43:47,385] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 16:43:47,401] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 16:43:47,426] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 16:43:47,427] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 16:43:47,450] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 16:43:47,498] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 16:43:47,580] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 16:43:47,908] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:43:47,908] - Broken pipe from ('115.172.254.120', 63930)
+
+[2018-03-11 16:43:49,467] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11779
+[2018-03-11 16:43:49,922] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-11 16:43:49,923] - Broken pipe from ('115.172.254.120', 63934)
+
+[2018-03-11 16:45:15,070] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 16:47:06,903] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 16:58:51,768] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 17:00:07,878] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11779
+[2018-03-11 17:00:07,909] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-11 17:00:07,910] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 17:00:07,910] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-11 17:00:07,911] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-11 17:00:07,911] "GET /media/vedio720p.mp4 HTTP/1.1" 200 39247872
+[2018-03-11 17:00:07,911] - Broken pipe from ('115.172.254.120', 60494)
+
+[2018-03-11 17:00:07,943] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-11 17:00:07,949] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-11 17:00:07,989] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-11 17:00:07,993] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-11 17:00:07,994] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-11 17:00:07,995] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-11 17:00:07,997] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-11 17:00:08,079] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-11 17:00:08,167] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-11 17:01:54,743] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 17:02:03,999] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 17:03:47,147] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 17:03:53,518] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11773
+[2018-03-11 17:03:53,553] "GET /media/vedio720p.mp4 HTTP/1.1" 200 622592
+[2018-03-11 17:03:53,553] - Broken pipe from ('115.172.254.120', 61275)
+
+[2018-03-11 17:03:53,568] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-11 17:03:53,569] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-11 17:03:53,572] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-11 17:03:53,576] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-11 17:03:53,667] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-11 17:03:53,669] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-11 17:03:53,671] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-11 17:03:53,671] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-11 17:03:53,703] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-11 17:03:54,147] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-11 17:03:54,357] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-11 17:03:56,554] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-11 17:03:59,921] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-11 17:05:45,207] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-11 17:22:08,187] "GET /media/vedio720p.mp4 HTTP/1.1" 200 19873792
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-11 17:22:08,187] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-11 17:22:08,187] - Broken pipe from ('115.172.254.120', 61778)
+
+[2018-03-11 18:12:32,059] "GET /media/vedio720p.mp4 HTTP/1.1" 200 14876672
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-11 18:12:32,059] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-11 18:12:32,059] - Broken pipe from ('115.172.254.120', 63579)
+
+[2018-03-11 19:47:00,371] "GET / HTTP/1.0" 400 83395
+[2018-03-12 01:39:53,750] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11773
+[2018-03-12 01:39:54,847] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-12 01:39:54,848] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-12 01:39:54,848] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-12 01:39:54,849] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-12 01:39:55,495] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-12 01:39:55,497] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-12 01:39:55,497] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-12 01:39:55,497] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-12 01:39:55,605] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-12 01:39:55,605] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-12 01:39:58,004] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-12 01:39:59,144] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-12 01:39:59,591] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-12 01:39:59,591] - Broken pipe from ('223.104.212.152', 41080)
+
+[2018-03-12 02:11:17,246] "GET / HTTP/1.0" 400 83397
+[2018-03-12 02:11:40,536] "GET / HTTP/1.1" 302 0
+[2018-03-12 02:11:40,558] "GET / HTTP/1.0" 400 83397
+[2018-03-12 02:11:40,625] "GET / HTTP/1.1" 302 0
+[2018-03-12 02:11:40,771] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x8f\x85nK\x9b\xf7\xe6\xfd\xe5\x9f\xa0E\xac,\xa9\x1a\x0e\xb6\xafm]\xdb\x9d\xa7\xe1\x8d8qX\xa7\xa2*\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[2018-03-12 02:11:40,772] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:40,826] "HEAD / HTTP/1.1" 302 0
+[2018-03-12 02:11:40,830] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03@\x07h\xad\xf8\xe70\xd4\x7f\xd8\xd0\xbd\x06\x819\xb9\x83\xc8sH~%\x9d\x88\xb4Vq\x1coH\x8c\x11\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[2018-03-12 02:11:40,830] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:40,973] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-12 02:11:41,079] "GET / HTTP/1.1" 302 0
+[2018-03-12 02:11:41,149] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xc7\xb5\xbc\x1a\x94\xea\xa7\x11\xd8\xb5\x9e\xd6N\xec2\xc4O\xe1_\xb1\x1e\x9e\xf3'\x8a\xc0q\xf4\x05$w\x15\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00")
+[2018-03-12 02:11:41,150] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:41,217] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x8e\xb4\x8c\x93\x02I\x8d\x9a?\xa8\xe7+\xfdu\xb2$\xe1\xa6\xd4\xde\xa6~\xfa&e\x9c~\xb5G\xb88\xae\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[2018-03-12 02:11:41,217] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:41,348] "HEAD /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-12 02:11:41,610] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x9dy\x17\xd7\xe0\xb6\xe9\x91\xbfX-\xe0\xbd\xb9I|quvg\x8b@PJ\xe0|E\x15\xc4\xf3\xb1^\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[2018-03-12 02:11:41,610] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:41,663] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\x97\xdd\xf2\xdc~\xec2\x9c\xe9\xba2')
+[2018-03-12 02:11:41,663] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:11:41,812] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-12 02:11:50,490] code 400, message Bad request syntax ('\x80\xf1\x01\x03\x03\x00\xd8\x00\x00\x00\x10\x00\x00\x05\x00\x00\x04\x01\x00\x80\x00\x00\x02\x00\x00\x01\x00\x00\x16\x00\x003\x00\x009\x00\x00:\x00\x00\x18\x00\x005\x00\x00')
+[2018-03-12 02:11:50,490] "ÄÒ ÿ        Ä        3  9  :    5  " 400 -
+[2018-03-12 02:11:50,543] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01\xfc\x03\x03\xcf\x81\xb5\x17\x00rp\xe9W\xdf"\xc8Y\xdcX\x10w\xbeo\xd1\x96\x03D\x19z\xa0\x80\xb8\xc5v\xc1\x03\x00\x00\xda\x00\x05\x00\x04\x00\x02\x00\x01\x00\x16\x003\x009\x00:\x00\x18\x005\x00')
+[2018-03-12 02:11:50,543] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2018-03-12 02:12:24,463] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-12 02:13:09,740] "GET / HTTP/1.1" 302 0
+[2018-03-12 02:13:09,870] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-12 02:13:10,231] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-12 02:13:10,231] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-12 02:13:10,258] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-12 02:13:10,329] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-12 02:13:10,432] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-12 02:13:10,470] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-12 02:13:10,528] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-12 02:13:10,597] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-12 02:13:10,602] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-12 02:13:11,025] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-12 02:13:11,226] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-12 02:13:15,842] "GET /welcome HTTP/1.1" 200 5857
+[2018-03-12 02:13:16,070] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-12 02:13:20,794] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-12 02:13:27,087] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11773
+[2018-03-12 02:13:27,313] "GET /media/vedio480p.mp4 HTTP/1.1" 200 4202496
+[2018-03-12 02:13:27,314] - Broken pipe from ('106.38.0.83', 42669)
+
+[2018-03-12 02:13:56,121] "GET /media/vedio720p.mp4 HTTP/1.1" 200 5505024
+[2018-03-12 02:13:56,122] - Broken pipe from ('106.38.0.83', 33393)
+
+[2018-03-12 06:33:45,667] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84099
+[2018-03-12 06:36:28,757] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[2018-03-12 06:36:28,757] "  +&‡     Cookie: mstshash=hello" 400 -
+[2018-03-12 06:51:31,879] "GET http://www.minghui.org/ HTTP/1.1" 400 84191
+[2018-03-12 06:51:32,040] "GET http://www.epochtimes.com/ HTTP/1.1" 400 84268
+[2018-03-12 06:51:32,148] "GET http://www.baidu.com/ HTTP/1.1" 400 84138
+[2018-03-12 06:51:32,174] "GET http://wujieliulan.com/ HTTP/1.1" 400 84190
+[2018-03-12 06:51:32,234] "GET http://www.boxun.com/ HTTP/1.1" 400 84137
+[2018-03-12 06:51:32,430] "GET http://www.bing.com/ HTTP/1.1" 400 84112
+[2018-03-12 06:51:34,354] "GET http://www.123cha.com/ HTTP/1.1" 400 84166
+[2018-03-12 06:51:38,168] "GET http://www.rfa.org/ HTTP/1.1" 400 84088
+[2018-03-12 06:51:38,287] "CONNECT www.voanews.com:443 HTTP/1.0" 400 83628
+[2018-03-12 07:27:20,316] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[2018-03-12 07:27:20,316] "  +&‡     Cookie: mstshash=hello" 400 -
+[2018-03-12 08:18:34,224] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[2018-03-12 08:18:34,224] "  +&‡     Cookie: mstshash=hello" 400 -
+[2018-03-12 12:58:13,745] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84096
+[2018-03-12 13:37:36,955] "GET /media/vedio720p.mp4 HTTP/1.1" 200 24715264
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-12 13:37:36,955] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-12 13:37:36,955] - Broken pipe from ('115.172.254.120', 49863)
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2018-03-12 14:06:21,438] "GET /media/vedio720p.mp4 HTTP/1.1" 200 10846208
+[2018-03-12 14:06:21,438] - Broken pipe from ('115.172.254.120', 50642)
+
+[2018-03-12 14:14:57,979] "GET /media/vedio720p.mp4 HTTP/1.1" 200 15785984
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-12 14:14:57,979] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-12 14:14:57,979] - Broken pipe from ('115.172.254.120', 50175)
+
+[2018-03-12 18:33:27,051] "GET / HTTP/1.0" 400 83397
+[2018-03-13 12:18:47,904] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+[2018-03-13 12:18:47,904] "  /*‡     Cookie: mstshash=Administr" 400 -
+[2018-03-13 19:38:08,555] "GET / HTTP/1.0" 400 83394
+[2018-03-14 09:25:37,792] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84096
+[2018-03-14 22:16:53,196] "GET / HTTP/1.0" 400 83396
+[2018-03-15 06:16:12,451] "GET http://www.123cha.com/ HTTP/1.1" 400 84168
+[2018-03-15 06:16:12,530] "GET http://www.bing.com/ HTTP/1.1" 400 84116
+[2018-03-15 06:16:12,530] "GET http://www.epochtimes.com/ HTTP/1.1" 400 84275
+[2018-03-15 06:16:12,533] "GET http://www.rfa.org/ HTTP/1.1" 400 84089
+[2018-03-15 06:16:12,539] "CONNECT www.voanews.com:443 HTTP/1.0" 400 83629
+[2018-03-15 06:16:12,549] "GET http://www.boxun.com/ HTTP/1.1" 400 84143
+[2018-03-15 06:16:12,559] "GET http://wujieliulan.com/ HTTP/1.1" 400 84194
+[2018-03-15 06:16:25,577] "GET http://www.baidu.com/ HTTP/1.1" 400 84143
+[2018-03-15 07:15:59,791] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11773
+[2018-03-15 07:16:00,256] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-15 07:16:00,257] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-15 07:16:00,259] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-15 07:16:00,259] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-15 07:16:00,297] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-15 07:16:00,297] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-15 07:16:00,312] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-15 07:16:00,318] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-15 07:16:00,468] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-15 07:16:00,473] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-15 07:16:00,576] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-15 07:16:01,751] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-15 07:16:02,253] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[2018-03-15 07:16:02,253] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-15 07:16:02,254] - Broken pipe from ('115.172.254.120', 54877)
+
+[2018-03-15 07:39:08,827] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84096
+[2018-03-15 07:53:08,761] "GET / HTTP/1.1" 302 0
+[2018-03-15 07:53:08,821] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-15 07:53:08,889] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-15 07:53:08,889] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-15 07:53:08,889] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-15 07:53:08,892] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-15 07:53:08,892] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-15 07:53:09,002] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-15 07:53:09,002] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-15 07:53:09,005] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-15 07:53:09,005] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-15 07:53:09,053] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-15 07:53:09,214] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-15 07:53:45,919] "GET /success HTTP/1.1" 404 3339
+[2018-03-15 07:53:46,103] "GET /favicon.ico HTTP/1.1" 404 3351
+[2018-03-15 07:54:03,652] "GET /zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-15 07:54:03,675] "GET /accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-15 07:54:03,749] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 200 19177
+[2018-03-15 07:54:08,654] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11773
+[2018-03-15 07:54:08,689] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 07:54:20,303] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 07:55:58,496] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 07:56:18,648] Sending email to feilibaby@163.com
+[2018-03-15 07:56:20,050] "POST /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-15 07:56:20,129] "GET /register/hello HTTP/1.1" 200 8308
+[2018-03-15 07:56:20,157] "GET /media/vedio720p.mp4 HTTP/1.1" 200 9846784
+[2018-03-15 07:56:20,158] - Broken pipe from ('115.172.254.120', 63277)
+
+[2018-03-15 07:56:20,322] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2018-03-15 07:56:27,304] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 07:58:07,625] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 08:00:00,423] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 08:00:38,029] "GET /register/hello HTTP/1.1" 200 8495
+[2018-03-15 08:00:38,062] "GET /media/vedio720p.mp4 HTTP/1.1" 200 17588224
+[2018-03-15 08:00:38,062] - Broken pipe from ('115.172.254.120', 64200)
+
+[2018-03-15 08:00:38,092] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 08:00:38,100] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 08:00:38,102] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 08:00:38,104] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 08:00:38,133] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 08:00:38,169] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 08:00:38,170] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 08:00:38,170] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 08:00:38,792] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 08:00:39,164] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 08:00:39,291] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 08:00:39,294] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2018-03-15 08:00:41,322] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 08:00:51,544] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 08:02:30,153] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 08:03:19,393] "GET /register/hello HTTP/1.1" 200 8409
+[2018-03-15 08:03:19,418] "GET /media/vedio720p.mp4 HTTP/1.1" 200 24051712
+[2018-03-15 08:03:19,418] - Broken pipe from ('115.172.254.120', 64860)
+
+[2018-03-15 08:03:19,439] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 08:03:19,440] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 08:03:19,440] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 08:03:19,757] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 08:03:19,787] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 08:03:19,787] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 08:03:19,813] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 08:03:19,821] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 08:03:20,093] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 08:03:20,426] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 08:03:20,624] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2018-03-15 08:03:20,624] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 08:03:25,182] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 08:03:32,013] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 08:03:35,805] "GET /welcome HTTP/1.1" 200 7123
+[2018-03-15 08:03:47,051] "GET /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-15 08:03:47,073] "GET / HTTP/1.1" 302 0
+[2018-03-15 08:03:47,206] "GET /zh-cn/ HTTP/1.1" 200 16926
+[2018-03-15 08:03:47,228] "GET /media/vedio480p.mp4 HTTP/1.1" 200 1990656
+[2018-03-15 08:03:47,228] - Broken pipe from ('115.172.254.120', 65127)
+
+[2018-03-15 08:03:54,257] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-15 08:03:54,297] "GET /zh-cn/accounts/logout/ HTTP/1.1" 302 0
+[2018-03-15 08:03:54,348] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-15 08:03:54,374] "GET /media/vedio720p.mp4 HTTP/1.1" 200 13737984
+[2018-03-15 08:03:54,374] - Broken pipe from ('115.172.254.120', 65056)
+
+[2018-03-15 08:03:54,397] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 08:03:54,397] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 08:03:54,397] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 08:03:54,607] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 08:03:54,646] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 08:03:54,821] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 08:03:54,921] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 08:03:54,984] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 08:03:55,304] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 08:03:55,504] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 08:03:56,009] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 08:03:57,077] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-15 08:04:02,619] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 08:04:02,651] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 08:04:05,522] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 08:05:51,927] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 08:06:15,573] "GET /media/vedio720p.mp4 HTTP/1.1" 200 10280960
+[2018-03-15 08:06:15,573] - Broken pipe from ('115.172.254.120', 49361)
+
+[2018-03-15 08:07:44,326] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-15 08:07:44,375] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 08:07:44,376] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 08:07:44,379] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 08:07:44,381] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 08:07:44,439] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 08:07:44,439] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 08:07:44,440] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 08:07:44,462] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 08:07:44,489] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 08:07:44,684] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 08:07:45,538] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-15 08:07:45,950] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 09:01:25,173] "GET http://www.bing.com/ HTTP/1.1" 400 84119
+[2018-03-15 09:01:25,329] "GET http://www.123cha.com/ HTTP/1.1" 400 84170
+[2018-03-15 09:01:25,444] "GET http://www.epochtimes.com/ HTTP/1.1" 400 84273
+[2018-03-15 09:01:27,838] "GET http://www.boxun.com/ HTTP/1.1" 400 84143
+[2018-03-15 09:01:32,355] "GET http://wujieliulan.com/ HTTP/1.1" 400 84196
+[2018-03-15 09:01:32,403] "GET http://www.baidu.com/ HTTP/1.1" 400 84144
+[2018-03-15 09:01:32,434] "GET http://www.rfa.org/ HTTP/1.1" 400 84092
+[2018-03-15 09:01:32,475] "GET http://www.minghui.org/ HTTP/1.1" 400 84195
+[2018-03-15 09:01:40,712] "CONNECT www.voanews.com:443 HTTP/1.0" 400 83630
+[2018-03-15 09:23:24,285] "GET http://www.minghui.org/ HTTP/1.1" 400 84195
+[2018-03-15 09:23:24,446] "GET http://www.boxun.com/ HTTP/1.1" 400 84145
+[2018-03-15 09:23:24,452] "GET http://www.epochtimes.com/ HTTP/1.1" 400 84274
+[2018-03-15 09:23:24,540] "GET http://www.123cha.com/ HTTP/1.1" 400 84170
+[2018-03-15 09:23:31,708] "GET http://www.rfa.org/ HTTP/1.1" 400 84093
+[2018-03-15 09:23:31,983] "GET http://wujieliulan.com/ HTTP/1.1" 400 84196
+[2018-03-15 09:23:31,988] "CONNECT www.voanews.com:443 HTTP/1.0" 400 83628
+[2018-03-15 09:23:32,679] "GET http://www.baidu.com/ HTTP/1.1" 400 84144
+[2018-03-15 14:06:41,342] "GET /welcome HTTP/1.1" 200 5771
+[2018-03-15 14:06:42,369] "GET /media/vedio480p.mp4 HTTP/1.1" 200 81920
+[2018-03-15 14:06:42,369] - Broken pipe from ('115.172.254.120', 58061)
+
+[2018-03-15 14:06:44,280] "GET /media/banner/7.png HTTP/1.1" 200 679936
+[2018-03-15 14:06:44,280] - Broken pipe from ('115.172.254.120', 58060)
+
+[2018-03-15 14:06:44,335] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:06:45,611] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-15 14:06:45,612] - Broken pipe from ('115.172.254.120', 58067)
+
+[2018-03-15 14:06:52,149] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:07:58,614] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:07:59,268] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-15 14:07:59,268] - Broken pipe from ('115.172.254.120', 58098)
+
+[2018-03-15 14:08:32,704] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:08:32,841] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:08:32,842] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:08:32,848] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:08:32,907] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:08:32,917] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:08:32,959] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:08:32,998] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:08:33,091] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:08:33,855] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:08:34,061] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:08:34,483] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:08:34,787] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-15 14:08:34,788] - Broken pipe from ('115.172.254.120', 58130)
+
+[2018-03-15 14:08:40,704] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:09:28,083] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 3438
+[2018-03-15 14:09:28,299] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 3402
+[2018-03-15 14:09:28,800] "GET /apple-touch-icon.png HTTP/1.1" 404 3378
+[2018-03-15 14:09:30,115] "GET /apple-touch-icon.png HTTP/1.1" 404 3378
+[2018-03-15 14:09:31,911] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:10:40,091] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-15 14:11:14,048] "GET /zh-cn/accounts/register/?nsukey=a6xt5tYdRNG1Vw%2B6GjIRXvqk4l3CFVC%2FLOAUnhH1TWznCEoFDl1po7z3D1tphjMLa%2FqHOsR5tXVTvY9LoP5aozOrzxIGldCy5HtTrIHZUrEF2brGsqNkxIVJCMi%2FsBr3sjRmmI07ZyXa6G%2FOw%2BTcUxiNQsiZcoHCS4%2Fy8NuYAZuPYB%2FMODIfYZ7GxA0GVs5%2B2RYPQrndk%2FCqaqKsIhTDLQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:11:14,852] "GET /zh-cn/accounts/register/?nsukey=a6xt5tYdRNG1Vw%2B6GjIRXvqk4l3CFVC%2FLOAUnhH1TWznCEoFDl1po7z3D1tphjMLa%2FqHOsR5tXVTvY9LoP5aozOrzxIGldCy5HtTrIHZUrEF2brGsqNkxIVJCMi%2FsBr3sjRmmI07ZyXa6G%2FOw%2BTcUxiNQsiZcoHCS4%2Fy8NuYAZuPYB%2FMODIfYZ7GxA0GVs5%2B2RYPQrndk%2FCqaqKsIhTDLQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:11:14,880] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:11:14,885] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:11:14,885] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:11:14,886] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:11:14,897] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:11:14,908] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:11:14,908] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:11:14,912] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:11:14,916] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:11:17,419] "GET /zh-cn/accounts/register/?nsukey=a6xt5tYdRNG1Vw%2B6GjIRXvqk4l3CFVC%2FLOAUnhH1TWznCEoFDl1po7z3D1tphjMLa%2FqHOsR5tXVTvY9LoP5aozOrzxIGldCy5HtTrIHZUrEF2brGsqNkxIVJCMi%2FsBr3sjRmmI07ZyXa6G%2FOw%2BTcUxiNQsiZcoHCS4%2Fy8NuYAZuPYB%2FMODIfYZ7GxA0GVs5%2B2RYPQrndk%2FCqaqKsIhTDLQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:11:18,241] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:11:18,268] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:11:18,274] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:11:19,052] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:11:19,053] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:11:19,079] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:11:20,056] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:11:20,814] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:11:20,844] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:11:20,905] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:11:20,915] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:11:26,534] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:11:54,200] "GET /zh-cn/accounts/register/?nsukey=Dt7p3mv5k7AmSMdVDEIHGR4GZ3WKgpa30xGwtF1MkTDneDsv2cQH2g1ZwESbBY%2F98mhrptligRJ4rERMFyKUmEanFjhk5Fm3lTXNHFEfuRgMSi58bVJmaI0zWf%2F%2F9UipqN6vIugdZFQ9FOSYpf40uuRVbkge70SeXQc8LFu8wp4sGxNf4ufKfc728KFbMrMlcTgF5HKuHp0wFszrGSnfsA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:11:54,337] "GET /zh-cn/accounts/register/?nsukey=Dt7p3mv5k7AmSMdVDEIHGR4GZ3WKgpa30xGwtF1MkTDneDsv2cQH2g1ZwESbBY%2F98mhrptligRJ4rERMFyKUmEanFjhk5Fm3lTXNHFEfuRgMSi58bVJmaI0zWf%2F%2F9UipqN6vIugdZFQ9FOSYpf40uuRVbkge70SeXQc8LFu8wp4sGxNf4ufKfc728KFbMrMlcTgF5HKuHp0wFszrGSnfsA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:11:54,428] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:11:54,430] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:11:54,434] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:11:54,437] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:11:54,477] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:11:54,508] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:11:54,522] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:11:54,522] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:11:54,525] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:11:55,773] "GET /zh-cn/accounts/register/?nsukey=Dt7p3mv5k7AmSMdVDEIHGR4GZ3WKgpa30xGwtF1MkTDneDsv2cQH2g1ZwESbBY%2F98mhrptligRJ4rERMFyKUmEanFjhk5Fm3lTXNHFEfuRgMSi58bVJmaI0zWf%2F%2F9UipqN6vIugdZFQ9FOSYpf40uuRVbkge70SeXQc8LFu8wp4sGxNf4ufKfc728KFbMrMlcTgF5HKuHp0wFszrGSnfsA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:13,127] "GET /zh-cn/accounts/register/?nsukey=a6xt5tYdRNG1Vw%2B6GjIRXvqk4l3CFVC%2FLOAUnhH1TWznCEoFDl1po7z3D1tphjMLa%2FqHOsR5tXVTvY9LoP5aozOrzxIGldCy5HtTrIHZUrEF2brGsqNkxIVJCMi%2FsBr3sjRmmI07ZyXa6G%2FOw%2BTcUxiNQsiZcoHCS4%2Fy8NuYAZuPYB%2FMODIfYZ7GxA0GVs5%2B2RYPQrndk%2FCqaqKsIhTDLQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:13,573] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:12:14,027] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:12:14,801] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:12:14,962] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:12:15,246] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:12:32,894] "GET /zh-cn/accounts/register?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:12:32,945] "GET /zh-cn/accounts/register/?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:33,709] "GET /zh-cn/accounts/register?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:12:33,761] "GET /zh-cn/accounts/register/?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:34,271] "GET /zh-cn/accounts/register?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:12:34,330] "GET /zh-cn/accounts/register/?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:34,380] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:12:34,380] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:12:34,385] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:12:34,390] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:12:34,411] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:12:34,418] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:12:34,419] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:12:34,419] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:12:34,449] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:12:34,477] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:12:34,522] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:12:39,636] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:12:53,082] "GET /zh-cn/accounts/register/?nsukey=Dt7p3mv5k7AmSMdVDEIHGR4GZ3WKgpa30xGwtF1MkTDneDsv2cQH2g1ZwESbBY%2F98mhrptligRJ4rERMFyKUmEanFjhk5Fm3lTXNHFEfuRgMSi58bVJmaI0zWf%2F%2F9UipqN6vIugdZFQ9FOSYpf40uuRVbkge70SeXQc8LFu8wp4sGxNf4ufKfc728KFbMrMlcTgF5HKuHp0wFszrGSnfsA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:12:54,417] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:12:54,812] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:12:54,938] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-15 14:12:55,069] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:12:55,366] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:12:55,568] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:12:55,620] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:12:56,643] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:12:59,042] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:13:00,132] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:13:00,471] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:13:01,602] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:13:52,749] "GET /zh-cn/accounts/register/?from=groupmessage&isappinstalled=0&nsukey=DuS59o0s%2FYFehsOVMIMoGlRkei6zq3wByi8eubO7aCdNFXPs8fglJjeYTjQYWrYRzvYeY%2BMA8paIDhgB7Z%2FrJIO0sJzcs0%2Bh2VRexrhxizRA3BTHTor3eeDFB%2Bt0IkG3ut07nl62wS%2FJhOum9A3mU2IadTr9gkvQ80MlEn2SFvi3KvXuB0A3FWnJsR5HhgL14nlDN2AUG5RzSWe0YX%2FFlg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:13:53,050] "GET /zh-cn/accounts/register/?from=groupmessage&isappinstalled=0&nsukey=DuS59o0s%2FYFehsOVMIMoGlRkei6zq3wByi8eubO7aCdNFXPs8fglJjeYTjQYWrYRzvYeY%2BMA8paIDhgB7Z%2FrJIO0sJzcs0%2Bh2VRexrhxizRA3BTHTor3eeDFB%2Bt0IkG3ut07nl62wS%2FJhOum9A3mU2IadTr9gkvQ80MlEn2SFvi3KvXuB0A3FWnJsR5HhgL14nlDN2AUG5RzSWe0YX%2FFlg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:13:53,746] "GET /zh-cn/accounts/register/?from=groupmessage&isappinstalled=0&nsukey=DuS59o0s%2FYFehsOVMIMoGlRkei6zq3wByi8eubO7aCdNFXPs8fglJjeYTjQYWrYRzvYeY%2BMA8paIDhgB7Z%2FrJIO0sJzcs0%2Bh2VRexrhxizRA3BTHTor3eeDFB%2Bt0IkG3ut07nl62wS%2FJhOum9A3mU2IadTr9gkvQ80MlEn2SFvi3KvXuB0A3FWnJsR5HhgL14nlDN2AUG5RzSWe0YX%2FFlg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:13:53,846] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:13:53,846] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:13:53,848] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:13:53,885] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:13:53,894] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:13:53,939] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:13:53,962] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:13:54,901] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:13:54,997] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:13:55,131] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:13:55,843] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:13:56,236] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-15 14:13:56,236] - Broken pipe from ('115.172.254.120', 58208)
+
+[2018-03-15 14:14:02,007] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:14:29,080] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:14:35,397] "GET /media/vedio720p.mp4 HTTP/1.1" 200 65536
+[2018-03-15 14:14:35,397] - Broken pipe from ('121.236.208.243', 64065)
+
+[2018-03-15 14:14:52,123] "GET /zh-cn/accounts/register/?from=groupmessage&isappinstalled=0&nsukey=DuS59o0s%2FYFehsOVMIMoGlRkei6zq3wByi8eubO7aCdNFXPs8fglJjeYTjQYWrYRzvYeY%2BMA8paIDhgB7Z%2FrJIO0sJzcs0%2Bh2VRexrhxizRA3BTHTor3eeDFB%2Bt0IkG3ut07nl62wS%2FJhOum9A3mU2IadTr9gkvQ80MlEn2SFvi3KvXuB0A3FWnJsR5HhgL14nlDN2AUG5RzSWe0YX%2FFlg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:14:52,310] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:14:52,667] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:14:52,884] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:14:52,985] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:14:53,991] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:15:32,395] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12024
+[2018-03-15 14:17:17,318] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:17:22,144] "GET /media/vedio720p.mp4 HTTP/1.1" 200 49152
+[2018-03-15 14:17:22,144] - Broken pipe from ('121.236.208.243', 7937)
+
+[2018-03-15 14:18:01,576] "GET /zh-cn/accounts/register/?nsukey=K67IAWNONCpKK5APeZGy0uePbu0lN5Ns5%2BeCeeaTyNzCIBOV%2F9y7VmXTNLp2HfTY%2F8tgYA5WIvhwIeen8qLKIoczAcdhIT3ThsW2jap9ILU%2BhVI2%2BnTFes7%2FzAd5pn4%2FQxedopTHtxXYrvrh2%2FgSxXYFjaVPzioW0xRAFRusjLpoSdCub8W0NQKCtF1w%2FLvUTpQem%2BWWecCi8cZmp3Ihng%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:19:46,546] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:19:51,173] "GET /media/vedio720p.mp4 HTTP/1.1" 200 49152
+[2018-03-15 14:19:51,173] - Broken pipe from ('121.236.208.243', 13633)
+
+[2018-03-15 14:23:01,074] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:23:01,387] "GET /media/vedio720p.mp4 HTTP/1.1" 200 229376
+[2018-03-15 14:23:01,387] - Broken pipe from ('121.236.208.243', 20705)
+
+[2018-03-15 14:23:03,472] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:23:03,952] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:23:04,491] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:23:14,545] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:23:14,548] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:23:18,320] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:23:18,478] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:23:29,516] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:23:29,516] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:23:33,103] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:23:33,105] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:23:35,927] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:23:35,928] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:23:45,515] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:23:45,515] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:24:03,105] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:24:03,111] "GET /zh-cn/accounts/register/?nsukey=qdJlARx5TDwmHtKjG0DQsgT4fJlai2nwvRait5CVkiVW0eYbp52lbmfA7V2Yv1cCZvnhtPfWl3IFDaaqWdId05vV7egh2suB5SByFsw7TCNmk33VNQtPebMpXOz8wEEd%2FDYh4kq%2BouRACfIfNW%2F%2FlXZp00gXWZc99UYlRlBLmqVC9uszQJUFVxEeGNtvRv76KLR9a6BnV0RGgVQSoeUd%2Bg%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:24:03,547] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:24:03,764] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:24:03,875] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:24:04,284] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:24:04,453] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:24:04,594] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:24:05,036] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:24:05,765] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:24:06,281] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:24:07,034] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:24:51,277] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:24:57,178] "GET /media/vedio720p.mp4 HTTP/1.1" 200 49152
+[2018-03-15 14:24:57,178] - Broken pipe from ('121.236.208.243', 25825)
+
+[2018-03-15 14:25:59,298] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:25:59,542] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:25:59,546] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:25:59,551] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:25:59,601] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:25:59,616] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:25:59,668] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:25:59,672] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:25:59,724] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:25:59,726] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:25:59,753] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:25:59,841] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:26:03,602] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:26:03,720] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-15 14:26:05,431] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:26:59,046] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:27:04,776] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:27:26,651] "GET / HTTP/1.1" 302 0
+[2018-03-15 14:27:26,712] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-15 14:27:31,173] "GET /zh-cn/accounts/login/ HTTP/1.1" 200 19524
+[2018-03-15 14:27:38,562] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:27:38,592] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:27:52,975] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:27:53,834] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12203
+[2018-03-15 14:27:54,228] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2375680
+[2018-03-15 14:27:54,228] - Broken pipe from ('115.172.254.120', 61033)
+
+[2018-03-15 14:28:02,104] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:28:17,238] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:28:17,470] "GET /media/vedio720p.mp4 HTTP/1.1" 200 8323072
+[2018-03-15 14:28:17,470] - Broken pipe from ('115.172.254.120', 61045)
+
+[2018-03-15 14:28:44,288] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11687
+[2018-03-15 14:28:44,336] "GET /media/vedio720p.mp4 HTTP/1.1" 200 13197312
+[2018-03-15 14:28:44,336] - Broken pipe from ('121.236.208.243', 33153)
+
+[2018-03-15 14:31:30,579] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:33:19,796] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:34:20,360] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:35:56,295] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12020
+[2018-03-15 14:35:56,336] "GET /media/vedio720p.mp4 HTTP/1.1" 200 31956992
+[2018-03-15 14:35:56,336] - Broken pipe from ('115.172.254.120', 61091)
+
+[2018-03-15 14:36:02,927] "GET /zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-15 14:36:02,960] "GET /accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-15 14:36:03,039] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 200 19177
+[2018-03-15 14:36:03,096] "GET /media/vedio720p.mp4 HTTP/1.1" 200 34299904
+[2018-03-15 14:36:03,096] - Broken pipe from ('121.236.208.243', 46177)
+
+[2018-03-15 14:36:16,968] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts HTTP/1.1" 200 19173
+[2018-03-15 14:36:22,338] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:36:35,275] "GET /zh-cn/accounts/register?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:36:35,392] "GET /zh-cn/accounts/register/?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:36:36,214] "GET /zh-cn/accounts/register?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:36:36,264] "GET /zh-cn/accounts/register/?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:36:36,643] "GET /zh-cn/accounts/register?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:36:36,696] "GET /zh-cn/accounts/register/?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:36:43,558] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:36:55,744] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:37:02,569] "GET /accounts/login/?next=/zh-cn/accounts HTTP/1.1" 302 0
+[2018-03-15 14:37:02,630] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts HTTP/1.1" 200 19173
+[2018-03-15 14:37:03,465] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:37:03,603] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:37:03,917] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:37:04,270] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:37:04,392] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:37:04,671] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:37:14,755] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:37:31,745] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:37:35,080] "GET /zh-cn/accounts/register?nsukey=KudbGKCdZfXaG3Er83oz0lw36Bz46h%2FNRFCQObLMQq%2FuPIoqe8r%2BkJVwOARZPP8vXsrcSePUFhn5R7p%2F76X0VtG2EMMdyqvy93moVGTu2u3OQgXNBf%2FZG%2BkDYD0HMXWIRczCEy7zOAGzmidK4naQTkQDcjBe0HYWy2DvSgGXBgR43FIRNWow4xADqRmNhgZVoZPLCp7RA%2FfzOUb39S65kQ%3D%3D HTTP/1.1" 301 0
+[2018-03-15 14:40:58,730] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:41:01,589] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:41:03,790] "GET /media/vedio720p.mp4 HTTP/1.1" 200 49152
+[2018-03-15 14:41:03,790] - Broken pipe from ('121.236.208.243', 61505)
+
+[2018-03-15 14:41:28,476] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:42:11,525] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:12,486] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:12,574] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:13,041] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:15,193] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:15,740] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:42:16,141] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:42:16,147] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:42:16,153] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:42:16,394] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:42:17,381] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:42:17,391] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:42:17,766] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:42:17,780] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:42:22,852] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:42:25,026] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:42:25,880] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:42:37,988] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84099
+[2018-03-15 14:43:11,441] "GET /zh-cn/accounts/register/?nsukey=jpwA70wiuksN1di1dfmJTeZkgz9sni%2Fwbu14WoYIFZKqh3OZv%2FO24WLBR%2BtmhG7Zt1AtVRk9pabzsP71oG2ZdRaF9LvJBRGD0Ps47FC93lmYncvLNT%2BG9A1PcAf3%2FC3Snl24oPoZ4JZlAIWHK1CYOscZJQdejA78OH69v%2FpzCzv9TOZBt6A26xKaEItVpTGHmBmpQwWmUEroLTtT6184MA%3D%3D HTTP/1.1" 200 11687
+[2018-03-15 14:43:12,310] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:43:13,496] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:43:13,640] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:43:13,711] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:43:13,947] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:44:05,664] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:44:09,003] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12132
+[2018-03-15 14:44:09,033] "GET /media/vedio720p.mp4 HTTP/1.1" 200 30457856
+[2018-03-15 14:44:09,034] - Broken pipe from ('115.172.254.120', 62112)
+
+[2018-03-15 14:44:09,047] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:44:09,048] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:44:09,052] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:44:09,053] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:44:09,161] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:44:09,161] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:44:09,161] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:44:09,525] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:44:09,648] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:44:09,823] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:44:10,223] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:44:11,210] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:44:20,274] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:45:21,180] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:46:10,498] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:47:07,038] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:48:49,531] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:50:14,935] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:52:39,488] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:53:31,919] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:54:16,626] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12131
+[2018-03-15 14:54:16,653] "GET /media/vedio720p.mp4 HTTP/1.1" 200 23191552
+[2018-03-15 14:54:16,653] - Broken pipe from ('115.172.254.120', 64882)
+
+[2018-03-15 14:54:16,703] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 14:54:16,704] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 14:54:16,705] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 14:54:16,744] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 14:54:16,988] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 14:54:17,093] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 14:54:17,152] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 14:54:17,184] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 14:54:17,262] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 14:54:17,473] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 14:54:18,390] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 14:54:20,107] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 14:54:30,394] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 14:56:16,141] "GET /media/vedio720p.mp4 HTTP/1.1" 200 30261248
+[2018-03-15 14:56:16,142] - Broken pipe from ('115.172.254.120', 65275)
+
+[2018-03-15 14:56:18,359] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 14:56:50,862] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 14:57:41,013] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 14:57:41,048] "GET /media/vedio720p.mp4 HTTP/1.1" 200 18145280
+[2018-03-15 14:57:41,048] - Broken pipe from ('115.172.254.120', 65317)
+
+[2018-03-15 15:00:13,763] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:00:35,587] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 15:01:19,131] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:03:39,428] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:05:12,907] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:06:52,757] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:07:17,541] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 15:07:17,581] "GET /media/vedio720p.mp4 HTTP/1.1" 200 30760960
+[2018-03-15 15:07:17,581] - Broken pipe from ('115.172.254.120', 50198)
+
+[2018-03-15 15:07:17,589] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-15 15:07:17,592] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-15 15:07:17,595] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-15 15:07:17,597] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-15 15:07:17,678] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-15 15:07:17,678] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-15 15:07:17,683] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-15 15:07:18,042] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-15 15:07:18,446] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-15 15:07:18,663] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-15 15:07:18,868] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-15 15:07:24,095] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-15 15:07:30,410] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-15 15:10:44,154] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:10:45,324] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:13:35,200] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:15:41,530] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:16:19,746] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:19:24,198] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:19:59,929] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57483264
+[2018-03-15 15:19:59,929] - Broken pipe from ('115.172.254.120', 52815)
+
+[2018-03-15 15:21:35,369] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:23:25,664] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:25:17,414] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:27:06,611] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:28:57,127] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:30:00,331] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 15:30:00,352] "GET /media/vedio720p.mp4 HTTP/1.1" 200 32604160
+[2018-03-15 15:30:00,352] - Broken pipe from ('121.236.208.243', 44833)
+
+[2018-03-15 15:30:00,660] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-15 15:30:03,001] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 15:30:03,063] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1540096
+[2018-03-15 15:30:03,063] - Broken pipe from ('121.236.208.243', 46721)
+
+[2018-03-15 15:30:03,430] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-15 15:30:11,786] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 11798
+[2018-03-15 15:30:11,843] "GET /media/vedio720p.mp4 HTTP/1.1" 200 4816896
+[2018-03-15 15:30:11,843] - Broken pipe from ('121.236.208.243', 46625)
+
+[2018-03-15 15:31:57,790] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-15 15:32:10,058] "GET /media/vedio720p.mp4 HTTP/1.1" 200 5005312
+[2018-03-15 15:32:10,058] - Broken pipe from ('121.236.208.243', 53729)
+
+[2018-03-15 15:35:59,931] "GET /media/vedio720p.mp4 HTTP/1.1" 200 4251648
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-15 15:35:59,931] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-15 15:35:59,931] - Broken pipe from ('115.172.254.120', 53866)
+
+[2018-03-15 20:00:26,442] "GET / HTTP/1.0" 400 83397
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2018-03-15 23:29:43,563] code 400, message Bad request syntax ('L\x00\x00\x00111\x01\xc0\xdb9\xcee\x8f y\x1f\x04\xa5P\xfdg"\x06|\xdc\x91\xf3\xa3\x88\xcf\xf4\xf9\xdc#\xda\xc7\x90\x94\x03\xa8\r\x9bPk\xd8H \x90\xc3\x0b\t\xed\xads\xb1\xfb\xbdG\xe2E\xefK`)\x07\xe3\x88\xc1\xb7\x12\x07\xba\xf6a\xa7\xa6\xbe\xf6[')
+[2018-03-15 23:29:43,563] "L   111¿€9Œeè y•P˝g"|‹ëÛ£àœÙ˘‹#⁄«êî®õPkÿH ê√	Ì≠s±˚ΩG‚EÔK`)„à¡∑∫ˆaß¶æˆ[" 400 -
+[2018-03-16 01:02:43,564] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 01:18:45,435] "GET /media/vedio720p.mp4 HTTP/1.1" 200 7741440
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-16 01:18:45,435] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-16 01:18:45,435] - Broken pipe from ('115.172.240.11', 56911)
+
+[2018-03-16 01:23:20,379] "GET /media/vedio720p.mp4 HTTP/1.1" 200 10575872
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-16 01:23:20,379] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-16 01:23:20,379] - Broken pipe from ('115.172.240.11', 58131)
+
+[2018-03-16 05:59:33,362] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84096
+[2018-03-16 06:03:31,427] "GET / HTTP/1.1" 302 0
+[2018-03-16 06:03:31,629] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 06:03:32,052] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-16 06:03:32,261] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 06:03:32,261] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-16 06:03:32,262] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-16 06:03:32,263] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 06:03:32,264] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-16 06:03:32,482] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-16 06:03:32,566] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-16 06:03:32,566] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-16 06:03:32,578] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-16 06:03:32,744] "GET /media/banner/1.jpg HTTP/1.1" 304 0
+[2018-03-16 06:03:33,096] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 06:03:38,654] "GET /zh-cn/accounts/profile/ HTTP/1.1" 302 0
+[2018-03-16 06:03:38,741] "GET /accounts/login/?next=/zh-cn/accounts/profile/ HTTP/1.1" 302 0
+[2018-03-16 06:03:38,875] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/profile/ HTTP/1.1" 200 19209
+[2018-03-16 06:03:45,277] "GET /zh-cn/accounts/reqister HTTP/1.1" 404 19326
+[2018-03-16 06:03:45,567] "GET /favicon.ico HTTP/1.1" 404 3351
+[2018-03-16 06:03:50,393] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-16 06:03:50,497] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12051
+[2018-03-16 06:03:50,684] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 06:03:54,594] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 06:03:57,961] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12051
+[2018-03-16 06:03:58,605] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 06:04:28,570] "GET /media/vedio720p.mp4 HTTP/1.1" 200 6537216
+[2018-03-16 06:04:28,570] - Broken pipe from ('106.38.0.83', 51211)
+
+[2018-03-16 06:04:57,993] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12050
+[2018-03-16 06:04:58,109] "GET /media/vedio720p.mp4 HTTP/1.1" 200 28786688
+[2018-03-16 06:04:58,109] - Broken pipe from ('106.38.0.83', 9183)
+
+[2018-03-16 06:04:58,514] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 06:05:13,653] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12411
+[2018-03-16 06:05:13,776] "GET /media/vedio720p.mp4 HTTP/1.1" 200 8503296
+[2018-03-16 06:05:13,776] - Broken pipe from ('106.38.0.83', 48747)
+
+[2018-03-16 06:05:28,283] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 06:06:39,197] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 12411
+[2018-03-16 06:06:39,437] "GET /media/vedio720p.mp4 HTTP/1.1" 200 45580288
+[2018-03-16 06:06:39,437] - Broken pipe from ('106.38.0.83', 6721)
+
+[2018-03-16 06:06:39,786] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 06:07:08,070] Sending email to 635316960@qq.com
+[2018-03-16 06:07:09,298] "POST /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 06:07:09,610] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 06:07:09,754] "GET /media/vedio720p.mp4 HTTP/1.1" 200 16318464
+[2018-03-16 06:07:09,754] - Broken pipe from ('106.38.0.83', 61862)
+
+[2018-03-16 06:07:10,011] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2018-03-16 06:07:41,727] "GET /media/vedio720p.mp4 HTTP/1.1" 200 8003584
+[2018-03-16 06:07:41,727] - Broken pipe from ('106.38.0.83', 61872)
+
+[2018-03-16 07:25:54,011] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 07:25:54,417] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 07:26:09,793] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 08:18:24,633] "GET / HTTP/1.1" 302 0
+[2018-03-16 08:18:24,827] "GET /zh-cn/ HTTP/1.1" 200 16926
+[2018-03-16 08:18:26,252] "GET /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 08:18:26,945] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-16 08:18:28,444] "GET /zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-16 08:18:28,561] "GET /zh-cn/accounts/profile/ HTTP/1.1" 200 18655
+[2018-03-16 08:18:30,756] "GET /zh-cn/accounts/profile/delete/ HTTP/1.1" 200 18441
+[2018-03-16 08:18:35,470] "POST /zh-cn/accounts/profile/delete/ HTTP/1.1" 302 0
+[2018-03-16 08:18:35,671] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 08:18:42,827] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12050
+[2018-03-16 08:18:43,046] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 08:18:47,541] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 08:20:43,757] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:22:43,217] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:23:25,269] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12050
+[2018-03-16 08:23:46,623] "GET /media/vedio720p.mp4 HTTP/1.1" 200 18145280
+[2018-03-16 08:23:46,623] - Broken pipe from ('106.38.0.83', 63739)
+
+[2018-03-16 08:25:37,185] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:38:36,129] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:40:39,327] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:41:18,047] "GET /media/vedio720p.mp4 HTTP/1.1" 200 5709824
+[2018-03-16 08:41:18,047] - Broken pipe from ('106.38.0.83', 45755)
+
+[2018-03-16 08:42:40,428] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:44:51,766] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:46:54,409] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:49:06,054] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:51:07,070] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 08:58:23,744] "GET / HTTP/1.1" 302 0
+[2018-03-16 08:58:23,954] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 08:58:24,648] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 08:58:24,649] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 08:58:24,650] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 08:58:25,439] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 08:58:25,450] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 08:58:25,452] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 08:58:25,466] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 08:58:25,498] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 08:58:25,601] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 08:58:27,623] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-16 08:58:27,888] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12050
+[2018-03-16 08:58:28,113] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 08:58:28,844] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 08:58:28,905] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 08:58:35,324] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 08:58:50,319] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 08:58:54,361] "GET /media/banner/1.jpg HTTP/1.1" 200 237568
+[2018-03-16 08:58:54,362] - Broken pipe from ('106.38.0.83', 49242)
+
+[2018-03-16 09:00:59,752] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:03:09,853] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:05:15,167] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:07:13,363] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:09:13,159] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:11:06,923] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:13:02,026] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:14:55,176] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:16:53,023] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:18:46,346] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:20:42,869] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:22:37,849] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:24:36,858] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:26:36,987] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:28:30,300] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:30:10,923] "GET /media/vedio720p.mp4 HTTP/1.1" 200 40976384
+[2018-03-16 09:30:10,923] - Broken pipe from ('106.38.0.83', 53404)
+
+[2018-03-16 09:30:26,770] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:32:22,417] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:34:17,029] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:34:19,962] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12319
+[2018-03-16 09:35:40,771] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12451
+[2018-03-16 09:36:00,473] "GET /media/vedio720p.mp4 HTTP/1.1" 200 44204032
+[2018-03-16 09:36:00,474] - Broken pipe from ('106.38.0.83', 53424)
+
+[2018-03-16 09:37:33,796] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:38:09,749] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12451
+[2018-03-16 09:38:09,896] "GET /media/vedio720p.mp4 HTTP/1.1" 200 15933440
+[2018-03-16 09:38:09,897] - Broken pipe from ('106.38.0.83', 38476)
+
+[2018-03-16 09:38:16,710] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12451
+[2018-03-16 09:38:16,879] "GET /media/vedio720p.mp4 HTTP/1.1" 200 3604480
+[2018-03-16 09:38:16,879] - Broken pipe from ('106.38.0.83', 15981)
+
+[2018-03-16 09:38:38,244] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12451
+[2018-03-16 09:38:38,379] "GET /media/vedio720p.mp4 HTTP/1.1" 200 12115968
+[2018-03-16 09:38:38,379] - Broken pipe from ('106.38.0.83', 53250)
+
+[2018-03-16 09:39:39,580] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12538
+[2018-03-16 09:39:39,727] "GET /media/vedio720p.mp4 HTTP/1.1" 200 33071104
+[2018-03-16 09:39:39,727] - Broken pipe from ('106.38.0.83', 35403)
+
+[2018-03-16 09:39:44,264] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12538
+[2018-03-16 09:39:44,424] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2482176
+[2018-03-16 09:39:44,424] - Broken pipe from ('106.38.0.83', 54057)
+
+[2018-03-16 09:40:06,200] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12538
+[2018-03-16 09:40:26,911] "GET /media/vedio720p.mp4 HTTP/1.1" 200 11812864
+[2018-03-16 09:40:26,911] - Broken pipe from ('106.38.0.83', 54055)
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    data = self._sock.recv(self._rbufsize)
+    self.finish_request(request, client_address)
+error: [Errno 104] Connection reset by peer
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2018-03-16 09:41:34,447] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12538
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2018-03-16 09:41:45,977] "GET /media/vedio720p.mp4 HTTP/1.1" 200 42942464
+[2018-03-16 09:41:45,978] - Broken pipe from ('106.38.0.83', 29870)
+
+[2018-03-16 09:42:53,500] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12538
+[2018-03-16 09:43:06,158] "GET /media/vedio720p.mp4 HTTP/1.1" 200 38797312
+[2018-03-16 09:43:06,159] - Broken pipe from ('106.38.0.83', 54284)
+
+[2018-03-16 09:44:44,913] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:44:50,080] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12564
+[2018-03-16 09:44:54,495] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12564
+[2018-03-16 09:44:54,638] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2768896
+[2018-03-16 09:44:54,638] - Broken pipe from ('106.38.0.83', 54655)
+
+[2018-03-16 09:44:58,393] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12564
+[2018-03-16 09:44:58,621] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2301952
+[2018-03-16 09:44:58,621] - Broken pipe from ('106.38.0.83', 54657)
+
+[2018-03-16 09:45:10,291] Sending email to fddfdf@163.com
+[2018-03-16 09:45:11,670] "POST /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 09:45:11,978] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:45:12,151] "GET /media/vedio720p.mp4 HTTP/1.1" 200 7536640
+[2018-03-16 09:45:12,151] - Broken pipe from ('106.38.0.83', 23736)
+
+[2018-03-16 09:45:12,490] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2018-03-16 09:46:35,123] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:46:40,088] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:46:40,297] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2809856
+[2018-03-16 09:46:40,297] - Broken pipe from ('106.38.0.83', 28534)
+
+[2018-03-16 09:46:46,051] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:46:47,698] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 09:47:08,959] "GET /media/vedio720p.mp4 HTTP/1.1" 200 4145152
+[2018-03-16 09:47:08,959] - Broken pipe from ('106.38.0.83', 35423)
+
+[2018-03-16 09:47:12,159] "GET /media/vedio720p.mp4 HTTP/1.1" 200 43999232
+[2018-03-16 09:47:12,159] - Broken pipe from ('106.38.0.83', 54706)
+
+[2018-03-16 09:48:29,106] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:48:29,261] "GET /media/vedio720p.mp4 HTTP/1.1" 200 54771712
+[2018-03-16 09:48:29,261] - Broken pipe from ('106.38.0.83', 21820)
+
+[2018-03-16 09:48:30,051] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 09:49:28,643] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:49:28,767] "GET /media/vedio720p.mp4 HTTP/1.1" 200 32063488
+[2018-03-16 09:49:28,767] - Broken pipe from ('106.38.0.83', 55025)
+
+[2018-03-16 09:49:29,592] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 09:50:59,885] "GET /register/hello HTTP/1.1" 200 8521
+[2018-03-16 09:51:00,012] "GET /media/vedio720p.mp4 HTTP/1.1" 200 49037312
+[2018-03-16 09:51:00,012] - Broken pipe from ('106.38.0.83', 60782)
+
+[2018-03-16 09:51:00,688] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 09:52:47,454] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[2018-03-16 09:54:00,019] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 09:54:01,036] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 09:54:10,585] "GET /media/vedio720p.mp4 HTTP/1.1" 200 34291712
+[2018-03-16 09:54:10,586] - Broken pipe from ('106.38.0.83', 28430)
+
+[2018-03-16 09:55:49,452] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:57:45,541] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 09:59:38,164] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 10:00:30,453] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 10:00:31,144] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:00:53,342] "GET /media/vedio720p.mp4 HTTP/1.1" 200 26648576
+[2018-03-16 10:00:53,343] - Broken pipe from ('106.38.0.83', 55546)
+
+[2018-03-16 10:02:19,422] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 10:04:13,145] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 10:06:07,107] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 10:07:18,169] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 10:07:18,478] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 10:07:21,159] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 10:07:21,285] "GET /media/banner/7.png HTTP/1.1" 200 1245184
+[2018-03-16 10:07:21,285] - Broken pipe from ('106.38.0.83', 55845)
+
+[2018-03-16 10:07:27,086] "GET /zh-cn/accounts/logout/ HTTP/1.1" 302 0
+[2018-03-16 10:07:27,307] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 10:07:27,529] "GET /media/banner/7.png HTTP/1.1" 200 1712128
+[2018-03-16 10:07:27,530] - Broken pipe from ('106.38.0.83', 55854)
+
+[2018-03-16 10:07:27,809] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1409024
+[2018-03-16 10:07:27,809] - Broken pipe from ('106.38.0.83', 55855)
+
+[2018-03-16 10:07:29,185] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-16 10:07:31,758] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12788
+[2018-03-16 10:07:31,883] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 10:07:37,852] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 10:07:41,401] "GET /media/vedio720p.mp4 HTTP/1.1" 200 32129024
+[2018-03-16 10:07:41,402] - Broken pipe from ('106.38.0.83', 55721)
+
+[2018-03-16 10:07:47,673] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1605632
+[2018-03-16 10:07:47,674] - Broken pipe from ('106.38.0.83', 55846)
+
+[2018-03-16 10:07:57,288] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12788
+[2018-03-16 10:07:57,875] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:08:11,824] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12788
+[2018-03-16 10:08:12,066] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 10:08:12,067] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 10:08:12,068] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 10:08:12,109] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 10:08:12,290] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 10:08:12,301] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 10:08:12,313] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 10:08:12,320] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 10:08:12,526] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 10:08:13,217] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 10:08:14,105] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 10:08:14,708] "GET /media/vedio720p.mp4 HTTP/1.1" 200 98304
+[2018-03-16 10:08:14,709] - Broken pipe from ('106.38.0.83', 18077)
+
+[2018-03-16 10:08:15,358] "GET /media/vedio720p.mp4 HTTP/1.1" 200 12468224
+[2018-03-16 10:08:15,358] - Broken pipe from ('106.38.0.83', 55881)
+
+[2018-03-16 10:08:19,385] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 10:08:19,994] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:08:21,003] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12788
+[2018-03-16 10:08:21,690] "GET /media/vedio720p.mp4 HTTP/1.1" 200 90112
+[2018-03-16 10:08:21,690] - Broken pipe from ('106.38.0.83', 56000)
+
+[2018-03-16 10:09:04,080] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:09:04,193] "GET /media/vedio720p.mp4 HTTP/1.1" 200 33316864
+[2018-03-16 10:09:04,193] - Broken pipe from ('106.38.0.83', 55937)
+
+[2018-03-16 10:09:04,948] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:09:15,426] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:09:32,313] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:09:33,009] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:09:34,825] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:09:34,965] "GET /media/vedio720p.mp4 HTTP/1.1" 200 860160
+[2018-03-16 10:09:34,965] - Broken pipe from ('106.38.0.83', 8076)
+
+[2018-03-16 10:09:35,341] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 10:10:03,172] Sending email to fei222@163.com
+[2018-03-16 10:10:04,138] "POST /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 10:10:04,412] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 10:10:04,555] "GET /media/vedio720p.mp4 HTTP/1.1" 200 15728640
+[2018-03-16 10:10:04,555] - Broken pipe from ('106.38.0.83', 24902)
+
+[2018-03-16 10:10:09,241] "GET /media/vedio720p.mp4 HTTP/1.1" 200 15220736
+[2018-03-16 10:10:09,242] - Broken pipe from ('106.38.0.83', 56079)
+
+[2018-03-16 10:10:15,270] "GET /zh-cn/accounts/logout/ HTTP/1.1" 302 0
+[2018-03-16 10:10:15,557] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 10:10:15,698] "GET /media/vedio720p.mp4 HTTP/1.1" 200 6135808
+[2018-03-16 10:10:15,699] - Broken pipe from ('106.38.0.83', 37169)
+
+[2018-03-16 10:10:16,561] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-16 10:10:22,689] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:10:35,735] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13161
+[2018-03-16 10:10:35,844] "GET /media/vedio720p.mp4 HTTP/1.1" 200 7626752
+[2018-03-16 10:10:35,845] - Broken pipe from ('106.38.0.83', 56246)
+
+[2018-03-16 10:11:28,415] "GET /media/vedio720p.mp4 HTTP/1.1" 200 9306112
+[2018-03-16 10:11:28,415] - Broken pipe from ('106.38.0.83', 19394)
+
+[2018-03-16 10:12:15,709] "GET / HTTP/1.1" 302 0
+[2018-03-16 10:12:15,808] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 10:12:23,425] "GET / HTTP/1.1" 302 0
+[2018-03-16 10:12:23,526] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 10:12:25,033] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12800
+[2018-03-16 10:12:25,192] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 10:12:30,273] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 10:14:14,877] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 10:14:18,504] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12799
+[2018-03-16 10:15:16,122] "GET /media/vedio720p.mp4 HTTP/1.1" 200 8413184
+[2018-03-16 10:15:16,122] - Broken pipe from ('106.38.0.83', 56530)
+
+[2018-03-16 10:15:39,074] "GET /zh-cn/accounts/logout HTTP/1.1" 301 0
+[2018-03-16 10:15:39,353] "GET /zh-cn/accounts/logout/ HTTP/1.1" 302 0
+[2018-03-16 10:15:40,665] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-16 10:16:27,042] "GET /media/vedio720p.mp4 HTTP/1.1" 200 27402240
+[2018-03-16 10:16:27,043] - Broken pipe from ('106.38.0.83', 56533)
+
+[2018-03-16 10:17:15,699] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12799
+[2018-03-16 10:17:56,186] "GET /media/vedio720p.mp4 HTTP/1.1" 200 34725888
+[2018-03-16 10:17:56,186] - Broken pipe from ('106.38.0.83', 16670)
+
+[2018-03-16 10:17:56,484] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 10:17:56,598] "GET /media/vedio720p.mp4 HTTP/1.1" 200 13623296
+[2018-03-16 10:17:56,598] - Broken pipe from ('106.38.0.83', 56820)
+
+[2018-03-16 10:18:08,892] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 10:18:39,199] "GET /media/vedio720p.mp4 HTTP/1.1" 200 6799360
+[2018-03-16 10:18:39,199] - Broken pipe from ('106.38.0.83', 56897)
+
+[2018-03-16 10:18:47,514] "GET /media/vedio720p.mp4 HTTP/1.1" 200 3235840
+[2018-03-16 10:18:47,514] - Broken pipe from ('106.38.0.83', 56925)
+
+[2018-03-16 10:20:09,336] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-16 10:20:09,431] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 10:22:00,298] "GET / HTTP/1.1" 302 0
+[2018-03-16 10:22:00,523] "GET /en-gb/ HTTP/1.1" 200 15537
+[2018-03-16 10:22:15,664] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 10:22:16,402] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 10:23:08,421] "GET /static/oscar/ HTTP/1.1" 404 1635
+[2018-03-16 10:25:07,077] "GET /media/vedio720p.mp4 HTTP/1.1" 200 614400
+[2018-03-16 10:25:07,077] - Broken pipe from ('106.38.0.83', 37895)
+
+[2018-03-16 13:25:44,309] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:25:44,607] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-16 13:25:44,607] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 13:25:44,608] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 13:25:44,617] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-16 13:25:44,649] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-16 13:25:44,649] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-16 13:25:44,650] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-16 13:25:44,651] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-16 13:25:44,818] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-16 13:25:44,832] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-16 13:25:45,432] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-16 13:25:45,582] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-16 13:25:46,103] "GET /media/vedio720p.mp4 HTTP/1.1" 200 212992
+[2018-03-16 13:25:46,103] - Broken pipe from ('115.174.157.94', 62843)
+
+[2018-03-16 13:25:49,129] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:25:49,259] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 13:25:49,263] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-16 13:25:49,264] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-16 13:25:49,271] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-16 13:25:49,352] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-16 13:25:49,357] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-16 13:25:49,368] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-16 13:25:49,368] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-16 13:25:49,400] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-16 13:25:49,527] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-16 13:25:49,584] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-16 13:25:49,589] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-16 13:25:49,737] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-16 13:25:49,737] - Broken pipe from ('115.174.157.94', 62862)
+
+[2018-03-16 13:26:22,209] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13181
+[2018-03-16 13:26:23,029] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-16 13:26:23,029] - Broken pipe from ('115.174.157.94', 62870)
+
+[2018-03-16 13:26:43,616] Sending email to 63531696044@qq.com
+[2018-03-16 13:26:45,003] "POST /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 13:26:45,126] "GET /register/hello HTTP/1.1" 200 8553
+[2018-03-16 13:26:45,381] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:26:45,479] "GET /static/oscar/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2018-03-16 13:26:45,717] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+[2018-03-16 13:26:45,717] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-16 13:26:45,718] - Broken pipe from ('115.174.157.94', 62880)
+
+[2018-03-16 13:26:47,634] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:26:56,000] "GET /media/vedio720p.mp4 HTTP/1.1" 200 81920
+[2018-03-16 13:26:56,001] - Broken pipe from ('115.174.157.94', 62882)
+
+[2018-03-16 13:27:29,792] "GET /zh-cn/accounts/register/ HTTP/1.1" 302 0
+[2018-03-16 13:27:29,853] "GET / HTTP/1.1" 302 0
+[2018-03-16 13:27:30,040] "GET /zh-cn/ HTTP/1.1" 200 16926
+[2018-03-16 13:27:30,895] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-16 13:33:09,179] "GET /media/vedio720p.mp4 HTTP/1.1" 200 6348800
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 128, in finish_response
+    self.write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/wsgiref/handlers.py", line 217, in write
+    self._write(data)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 328, in write
+    self.flush()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 110] Connection timed out
+[2018-03-16 13:33:09,179] "GET /media/vedio720p.mp4 HTTP/1.1" 500 59
+[2018-03-16 13:33:09,179] - Broken pipe from ('115.174.157.94', 58918)
+
+[2018-03-16 13:37:48,655] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:37:48,731] "GET /media/vedio720p.mp4 HTTP/1.1" 200 3031040
+[2018-03-16 13:37:48,732] - Broken pipe from ('115.174.157.94', 59021)
+
+[2018-03-16 13:37:48,883] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:37:48,903] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:37:48,910] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:37:48,995] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:37:49,008] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:37:49,252] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:37:49,254] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:37:49,254] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:37:49,255] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:37:49,255] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:37:49,405] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:37:52,847] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:37:55,996] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:37:56,034] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:37:56,163] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1261568
+[2018-03-16 13:37:56,163] - Broken pipe from ('115.174.157.94', 59069)
+
+[2018-03-16 13:37:57,281] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:37:57,690] "GET /media/banner/7.png HTTP/1.1" 200 417792
+[2018-03-16 13:37:57,690] "GET /media/vedio720p.mp4 HTTP/1.1" 200 303104
+[2018-03-16 13:37:57,690] - Broken pipe from ('115.174.157.94', 59091)
+
+[2018-03-16 13:37:57,691] - Broken pipe from ('115.174.157.94', 59092)
+
+[2018-03-16 13:38:02,420] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:38:02,531] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 13:38:05,066] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:40:03,724] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:41:55,236] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:43:10,474] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:43:10,507] "GET /media/vedio720p.mp4 HTTP/1.1" 200 37961728
+[2018-03-16 13:43:10,507] - Broken pipe from ('115.174.157.94', 60094)
+
+[2018-03-16 13:43:10,520] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:43:10,535] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:43:10,537] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:43:10,563] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:43:10,825] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:43:10,826] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:43:10,835] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:43:10,870] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:43:11,286] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:43:11,450] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:43:11,525] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:43:12,145] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:43:14,261] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1048576
+[2018-03-16 13:43:14,261] - Broken pipe from ('115.174.157.94', 60406)
+
+[2018-03-16 13:43:14,542] "GET /media/banner/7.png HTTP/1.1" 200 131072
+[2018-03-16 13:43:14,542] - Broken pipe from ('115.174.157.94', 60390)
+
+[2018-03-16 13:43:14,801] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:43:14,837] "GET /media/vedio720p.mp4 HTTP/1.1" 200 368640
+[2018-03-16 13:43:14,838] - Broken pipe from ('115.174.157.94', 60415)
+
+[2018-03-16 13:43:14,842] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:43:14,843] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:43:14,845] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:43:14,923] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:43:14,929] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:43:15,048] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:43:15,077] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:43:15,160] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:43:15,224] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:43:15,880] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:43:16,027] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:43:22,827] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:43:26,979] "GET /media/vedio720p.mp4 HTTP/1.1" 200 4186112
+[2018-03-16 13:43:26,979] - Broken pipe from ('115.174.157.94', 60434)
+
+[2018-03-16 13:43:27,023] "GET /media/banner/7.png HTTP/1.1" 200 1605632
+[2018-03-16 13:43:27,023] - Broken pipe from ('115.174.157.94', 60431)
+
+[2018-03-16 13:43:27,531] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:43:27,562] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:43:27,563] "GET /media/vedio720p.mp4 HTTP/1.1" 200 409600
+[2018-03-16 13:43:27,563] - Broken pipe from ('115.174.157.94', 60475)
+
+[2018-03-16 13:43:34,907] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:43:35,072] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 13:43:41,022] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:43:54,388] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:43:54,555] "GET /media/vedio720p.mp4 HTTP/1.1" 200 12181504
+[2018-03-16 13:43:54,555] - Broken pipe from ('115.174.157.94', 60479)
+
+[2018-03-16 13:43:54,558] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:43:54,558] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:43:54,558] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:43:54,609] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:43:54,903] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:43:54,904] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:43:54,905] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:43:54,917] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:43:54,969] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:43:55,349] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:43:55,729] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:43:56,776] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 131072
+[2018-03-16 13:43:56,776] - Broken pipe from ('115.174.157.94', 60569)
+
+[2018-03-16 13:43:59,681] "GET /media/banner/7.png HTTP/1.1" 200 417792
+[2018-03-16 13:43:59,681] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1875968
+[2018-03-16 13:43:59,681] - Broken pipe from ('115.174.157.94', 60559)
+
+[2018-03-16 13:43:59,681] - Broken pipe from ('115.174.157.94', 60570)
+
+[2018-03-16 13:44:00,372] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12798
+[2018-03-16 13:44:00,418] "GET /media/vedio720p.mp4 HTTP/1.1" 200 401408
+[2018-03-16 13:44:00,418] - Broken pipe from ('115.174.157.94', 60575)
+
+[2018-03-16 13:44:10,768] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:44:11,100] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:44:11,202] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 13:44:42,566] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13159
+[2018-03-16 13:44:42,599] "GET /media/vedio720p.mp4 HTTP/1.1" 200 20545536
+[2018-03-16 13:44:42,599] - Broken pipe from ('115.174.157.94', 60578)
+
+[2018-03-16 13:44:42,615] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:44:42,617] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:44:42,619] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:44:42,619] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:44:42,773] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:44:42,928] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:44:42,980] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:44:43,252] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:44:43,255] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:44:43,284] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:44:43,426] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:44:45,842] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:45:05,086] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:45:37,893] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13159
+[2018-03-16 13:45:37,919] "GET /media/vedio720p.mp4 HTTP/1.1" 200 27164672
+[2018-03-16 13:45:37,919] - Broken pipe from ('115.174.157.94', 60751)
+
+[2018-03-16 13:45:37,951] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:45:37,953] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:45:37,955] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:45:37,957] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:45:38,024] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:45:38,024] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:45:38,165] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:45:38,514] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:45:39,204] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:45:39,369] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:45:42,271] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:45:47,321] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:45:50,458] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:47:02,197] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13159
+[2018-03-16 13:47:02,244] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:47:02,246] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:47:02,246] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:47:02,299] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:47:02,319] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:47:02,426] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:47:02,444] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:47:02,445] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:47:02,445] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:47:02,480] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:47:02,480] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:47:05,427] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:47:08,822] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:47:54,890] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13166
+[2018-03-16 13:47:54,922] "GET /media/vedio720p.mp4 HTTP/1.1" 200 26214400
+[2018-03-16 13:47:54,923] - Broken pipe from ('115.174.157.94', 61353)
+
+[2018-03-16 13:47:54,937] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:47:54,938] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:47:54,941] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:47:54,970] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:47:55,147] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:47:55,836] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:47:56,266] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:47:57,728] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:48:03,273] "GET /media/vedio720p.mp4 HTTP/1.1" 200 2736128
+[2018-03-16 13:48:03,273] - Broken pipe from ('115.174.157.94', 61597)
+
+[2018-03-16 13:48:03,303] "GET /media/banner/7.png HTTP/1.1" 200 1097728
+[2018-03-16 13:48:03,303] - Broken pipe from ('115.174.157.94', 61586)
+
+[2018-03-16 13:48:03,832] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13166
+[2018-03-16 13:48:03,870] "GET /media/vedio720p.mp4 HTTP/1.1" 200 401408
+[2018-03-16 13:48:03,872] - Broken pipe from ('115.174.157.94', 61622)
+
+[2018-03-16 13:48:03,876] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:48:03,878] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:48:03,878] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:48:04,109] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:48:04,147] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:48:04,147] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:48:04,273] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:48:04,454] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:48:04,455] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:48:04,625] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:48:05,038] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:48:15,638] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:48:29,317] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:49:30,108] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:49:56,708] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:50:04,870] "GET /register/hello HTTP/1.1" 200 7201
+[2018-03-16 13:50:14,239] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:52:23,836] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:52:48,714] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:53:10,908] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:54:35,743] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:55:59,864] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 13:56:01,012] "GET /register/hello HTTP/1.1" 200 7191
+[2018-03-16 13:56:01,057] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:56:01,058] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:56:01,060] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:56:01,141] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:56:01,302] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:56:01,302] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:56:01,401] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:56:01,527] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:56:01,732] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:56:02,839] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:56:03,033] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:56:03,939] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:56:16,710] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:57:16,074] "GET /register/hello HTTP/1.1" 200 7191
+[2018-03-16 13:57:16,132] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 13:57:16,136] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 13:57:16,138] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 13:57:16,169] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 13:57:16,266] "GET /media/vedio720p.mp4 HTTP/1.1" 200 10477568
+[2018-03-16 13:57:16,266] - Broken pipe from ('115.174.157.94', 63531)
+
+[2018-03-16 13:57:16,397] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 13:57:16,646] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 13:57:16,731] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 13:57:16,755] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 13:57:16,865] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 13:57:18,687] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 13:57:24,121] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 13:57:25,319] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 13:57:26,177] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 13:58:38,153] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 14:00:23,738] "GET /register/hello HTTP/1.1" 200 7108
+[2018-03-16 14:00:23,779] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 14:00:23,781] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 14:00:23,790] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 14:00:24,006] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 14:00:24,216] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 14:00:24,216] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 14:00:24,217] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 14:00:24,217] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 14:00:24,377] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-16 14:00:24,435] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 14:00:25,375] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 14:00:27,645] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 14:00:33,926] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:00:33,962] "GET /media/vedio720p.mp4 HTTP/1.1" 200 54820864
+[2018-03-16 14:00:33,963] - Broken pipe from ('115.174.157.94', 64244)
+
+[2018-03-16 14:00:39,567] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:00:39,801] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1818624
+[2018-03-16 14:00:39,801] - Broken pipe from ('115.174.157.94', 64717)
+
+[2018-03-16 14:00:41,871] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 14:00:41,985] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 14:01:34,168] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:01:34,505] "GET /media/vedio720p.mp4 HTTP/1.1" 200 7897088
+[2018-03-16 14:01:34,505] - Broken pipe from ('115.174.157.94', 64745)
+
+[2018-03-16 14:02:35,783] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 14:02:51,282] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 14:02:53,245] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:02:53,899] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 14:02:58,553] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:02:58,831] "GET /media/vedio720p.mp4 HTTP/1.1" 200 1384448
+[2018-03-16 14:02:58,831] - Broken pipe from ('115.174.157.94', 64973)
+
+[2018-03-16 14:02:59,957] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 14:03:15,655] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 14:03:18,655] "POST /zh-cn/accounts/register/ HTTP/1.1" 200 13083
+[2018-03-16 14:03:18,689] "GET /media/vedio720p.mp4 HTTP/1.1" 200 5775360
+[2018-03-16 14:03:18,689] - Broken pipe from ('115.174.157.94', 64972)
+
+[2018-03-16 14:03:18,702] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 14:03:18,705] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-16 14:03:18,705] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-16 14:03:18,971] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-16 14:03:19,169] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-16 14:03:19,186] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-16 14:03:19,265] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-16 14:03:19,457] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-16 14:03:19,539] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-16 14:03:19,751] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-16 14:03:21,029] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-16 14:03:26,844] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-16 14:04:46,335] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 14:05:44,142] "GET /register/hello HTTP/1.1" 200 7108
+[2018-03-16 14:05:44,173] "GET /media/vedio720p.mp4 HTTP/1.1" 200 28557312
+[2018-03-16 14:05:44,174] - Broken pipe from ('115.174.157.94', 65391)
+
+[2018-03-16 14:06:04,190] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-16 14:06:04,454] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-16 14:07:50,085] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-16 14:09:23,428] "GET /media/vedio720p.mp4 HTTP/1.1" 200 47669248
+[2018-03-16 14:09:23,429] - Broken pipe from ('115.174.157.94', 49800)
+
+[2018-03-16 18:39:53,349] "GET / HTTP/1.0" 400 83395
+[2018-03-16 20:11:50,468] "GET / HTTP/1.0" 400 83397
+[2018-03-17 03:40:55,334] "GET / HTTP/1.1" 302 0
+[2018-03-17 03:40:55,406] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-17 03:40:55,437] "GET /static/oscar/css/styles.css HTTP/1.1" 304 0
+[2018-03-17 03:40:55,465] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 03:40:55,483] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 304 0
+[2018-03-17 03:40:55,540] "GET /static/fauve/css/fauve.css HTTP/1.1" 304 0
+[2018-03-17 03:40:55,545] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 304 0
+[2018-03-17 03:40:55,547] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 304 0
+[2018-03-17 03:40:55,548] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 304 0
+[2018-03-17 03:40:55,550] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 304 0
+[2018-03-17 03:40:55,551] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 304 0
+[2018-03-17 03:40:56,606] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 0
+[2018-03-17 03:40:56,819] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-17 03:41:01,742] "GET /accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 302 0
+[2018-03-17 03:41:01,830] "GET /zh-cn/accounts/login/?next=/zh-cn/accounts/ HTTP/1.1" 200 19177
+[2018-03-17 03:41:45,059] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-17 03:41:45,100] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 03:41:45,135] "GET /media/fauve_log.png HTTP/1.1" 304 0
+[2018-03-17 03:41:45,158] "GET /media/banner/7.png HTTP/1.1" 304 0
+[2018-03-17 03:43:30,998] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:45:21,639] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:45:43,789] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 03:45:43,867] "GET /media/vedio720p.mp4 HTTP/1.1" 200 9633792
+[2018-03-17 03:45:43,867] - Broken pipe from ('115.174.157.94', 50889)
+
+[2018-03-17 03:45:44,067] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-17 03:47:30,736] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:47:35,177] "GET /zh-cn/accounts/register/ HTTP/1.0" 200 12722
+[2018-03-17 03:49:04,051] "GET /zh-cn/accounts/register HTTP/1.1" 301 0
+[2018-03-17 03:49:22,422] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:51:16,439] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:54:03,692] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:55:55,883] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:57:47,690] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 03:59:39,665] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:01:32,328] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:02:42,615] "GET /media/vedio720p.mp4 HTTP/1.1" 200 21143552
+[2018-03-17 04:02:42,615] - Broken pipe from ('115.174.157.94', 51026)
+
+[2018-03-17 04:02:56,261] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 84096
+[2018-03-17 04:04:29,767] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:06:20,340] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:08:10,648] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:10:03,283] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:11:55,272] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:13:57,505] "GET /media/vedio720p.mp4 HTTP/1.1" 200 32374784
+[2018-03-17 04:13:57,505] - Broken pipe from ('115.174.157.94', 51110)
+
+[2018-03-17 04:16:49,790] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 04:16:53,074] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:16:53,075] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:16:53,075] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:16:53,242] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-17 04:16:53,337] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:16:53,338] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:16:53,452] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:16:54,608] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:16:54,610] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:16:56,838] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:17:13,984] "GET /static/oscar/fonts/fontawesome-webfont.eot?v=3.2.1 HTTP/1.1" 200 37405
+[2018-03-17 04:17:29,263] "GET / HTTP/1.1" 302 0
+[2018-03-17 04:17:29,355] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-17 04:17:29,427] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:17:29,427] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:17:29,428] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:17:29,439] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:17:29,465] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:17:29,478] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:17:29,482] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:17:29,484] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:17:29,500] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:17:29,590] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:17:29,817] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-17 04:18:12,911] "GET / HTTP/1.1" 302 0
+[2018-03-17 04:18:13,007] "GET /en-gb/ HTTP/1.1" 200 15537
+[2018-03-17 04:18:13,070] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:18:13,070] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:18:13,072] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:18:13,096] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:18:13,119] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:18:13,125] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:18:13,130] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:18:13,137] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:18:13,150] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:18:13,354] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:18:13,381] "GET /media/banner/1.jpg HTTP/1.1" 200 517080
+[2018-03-17 04:24:02,175] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 04:24:02,353] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:24:02,356] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:24:02,357] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:24:02,476] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-17 04:24:02,476] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:24:02,590] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:24:02,644] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:24:02,645] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:24:02,646] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:24:02,653] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:24:02,821] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:24:10,036] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-17 04:24:10,624] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-17 04:25:11,834] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 04:25:12,060] "GET /media/vedio720p.mp4 HTTP/1.1" 200 33562624
+[2018-03-17 04:25:12,060] - Broken pipe from ('117.82.186.236', 13441)
+
+[2018-03-17 04:25:12,210] "GET /static/oscar/favicon.ico HTTP/1.1" 200 1150
+[2018-03-17 04:27:01,103] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:28:56,027] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:30:47,927] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:32:45,555] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:32:46,919] "GET / HTTP/1.1" 302 0
+[2018-03-17 04:32:46,968] "GET /zh-cn/ HTTP/1.1" 200 15524
+[2018-03-17 04:33:11,786] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12722
+[2018-03-17 04:33:17,212] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-17 04:33:17,699] "GET /favicon.ico HTTP/1.1" 404 3351
+[2018-03-17 04:36:10,633] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:36:49,268] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:39:52,182] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:40:15,783] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:41:19,472] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12716
+[2018-03-17 04:41:19,509] "GET /media/vedio720p.mp4 HTTP/1.1" 200 19890176
+[2018-03-17 04:41:19,509] - Broken pipe from ('115.174.157.94', 53123)
+
+[2018-03-17 04:41:19,523] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:41:19,526] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:41:19,526] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:41:19,556] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-17 04:41:19,876] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:41:19,900] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:41:20,263] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:41:20,330] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:41:20,501] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:41:20,768] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:41:20,901] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:41:22,407] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-17 04:41:32,250] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-17 04:42:28,500] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12732
+[2018-03-17 04:42:28,561] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:42:28,563] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:42:28,564] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:42:28,566] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-17 04:42:28,623] "GET /media/vedio720p.mp4 HTTP/1.1" 200 20578304
+[2018-03-17 04:42:28,624] - Broken pipe from ('115.174.157.94', 53477)
+
+[2018-03-17 04:42:28,654] "GET /static/oscar/js/bootstrap3/bootstrap.min.js HTTP/1.1" 200 37045
+[2018-03-17 04:42:28,655] "GET /static/oscar/js/oscar/ui.js HTTP/1.1" 200 13964
+[2018-03-17 04:42:28,916] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:42:28,961] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.js HTTP/1.1" 200 55331
+[2018-03-17 04:42:29,003] "GET /static/oscar/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.all.js HTTP/1.1" 200 31995
+[2018-03-17 04:42:29,126] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:42:29,968] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:42:31,547] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-17 04:42:36,671] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-17 04:42:41,209] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12732
+[2018-03-17 04:42:41,236] "GET /media/vedio720p.mp4 HTTP/1.1" 200 3080192
+[2018-03-17 04:42:41,236] - Broken pipe from ('115.174.157.94', 53776)
+
+[2018-03-17 04:42:41,256] "GET /static/oscar/js/bootstrap-datetimepicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12351
+[2018-03-17 04:42:41,260] "GET /static/oscar/css/datetimepicker.css HTTP/1.1" 200 352
+[2018-03-17 04:42:41,260] "GET /static/fauve/css/fauve.css HTTP/1.1" 200 309
+[2018-03-17 04:42:41,517] "GET /media/fauve_log.png HTTP/1.1" 200 72861
+[2018-03-17 04:42:41,771] "GET /static/oscar/css/styles.css HTTP/1.1" 200 185924
+[2018-03-17 04:42:41,907] "GET /static/oscar/js/jquery/jquery-1.9.1.min.js HTTP/1.1" 200 92629
+[2018-03-17 04:42:42,036] "GET /static/oscar/fonts/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 43572
+[2018-03-17 04:42:42,751] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-17 04:42:46,994] "GET /media/banner/7.png HTTP/1.1" 200 1871272
+[2018-03-17 04:44:22,570] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:46:40,207] "GET /media/vedio720p.mp4 HTTP/1.1" 200 51519488
+[2018-03-17 04:46:40,208] - Broken pipe from ('115.174.157.94', 53840)
+
+[2018-03-17 04:46:54,740] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:48:47,963] "GET /media/vedio720p.mp4 HTTP/1.1" 200 56868864
+[2018-03-17 04:48:47,963] - Broken pipe from ('117.82.186.236', 15360)
+
+[2018-03-17 04:50:42,456] "GET /zh-cn/accounts/register/ HTTP/1.1" 200 12732
+[2018-03-17 04:50:48,762] "GET /static/oscar/css/styles.css.map HTTP/1.1" 200 356797
+[2018-03-17 04:53:15,024] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:55:14,242] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:57:06,509] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:59:03,707] "GET /media/vedio720p.mp4 HTTP/1.1" 200 57584438
+[2018-03-17 04:59:53,039] "GET /media/vedio720p.mp4 HTTP/1.1" 200 19030016
+[2018-03-17 04:59:53,039] - Broken pipe from ('117.82.186.236', 12288)
+
+[2018-03-17 05:45:06,083] "GET / HTTP/1.1" 302 0
+[2018-03-17 05:45:06,102] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:06,102] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:06,237] "GET /zh-cn/ HTTP/1.1" 500 117086
+[2018-03-17 05:45:06,237] - Broken pipe from ('115.174.157.94', 55061)
+
+[2018-03-17 05:45:06,914] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:06,914] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:07,056] "GET /zh-cn/ HTTP/1.1" 500 117086
+[2018-03-17 05:45:33,898] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:33,898] Internal Server Error: /zh-cn/
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/utils/decorators.py", line 184, in inner
+    with self:
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/transaction.py", line 158, in __enter__
+    if not connection.get_autocommit():
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 385, in get_autocommit
+    self.ensure_connection()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/anaconda3/envs/oscar/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 198, in get_new_connection
+    conn = Database.connect(**conn_params)
+OperationalError: unable to open database file
+[2018-03-17 05:45:34,041] "GET /zh-cn/ HTTP/1.1" 500 117221

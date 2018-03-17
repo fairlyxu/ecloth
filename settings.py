@@ -11,7 +11,7 @@ location = lambda x: os.path.join(
 DEBUG = env.bool('DEBUG', default=True)
 
 ALLOWED_HOSTS = [
-    #'latest.oscarcommerce.com',
+    '120.27.219.213',
     'www.interestm.com',
     'localhost',
     '127.0.0.1',

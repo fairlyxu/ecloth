@@ -2,20 +2,18 @@
 {% load category_tags %}
 {% load i18n %}
 <style>
-body{
-background: url(/media/banner/7.jpg) no-repeat;
-      background-size: cover;
-
+.alert {
+    display:none;
 }
 video#bgvid{
       position: fixed; right: 0; bottom: 0;
       min-width: 100%; min-height: 100%;
       width: auto; height: auto; z-index: -100;
-      background: url(/media/banner/7.jpg) no-repeat;
+      background: url(/media/banner/7.png) no-repeat;
       background-size: cover;
     }
         .register_form{
-        height:420px;}
+        height:360px;}
 @media( min-width: 768px) {
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus{
@@ -61,7 +59,7 @@ li>a{
              <div class="col-lg-6 col-sm-6 col-xs-12 text-center" id="fauve_logo">
                 <img src="/media/fauve_log.png" style="width:100%;margin-top: -8%;">
             </div>
-            <div class="col-lg-3 col-sm-3 col-xs-12 hidden-xs text-center">
+            <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
             <ul class="nav navbar-nav navbar-right" id="accountnav">
                 {% if user.is_authenticated %}
                 {% block nav_account_navbar_authenticated %}
