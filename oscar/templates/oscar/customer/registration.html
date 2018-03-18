@@ -15,6 +15,7 @@ label[for='id_registration-password2'],label[for='id_registration-password1'],la
    display:none;
 }
 .form-control{
+    border-radius: 0px;
  height: 40px;
 }
  
@@ -40,7 +41,7 @@ label[for='id_registration-password2']
        .register_form{
         padding:0;
         border:1px solid rgba(255,255,255,0.75);
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.6);
         position:relative;
         top:50%;
         }
@@ -50,7 +51,7 @@ label[for='id_registration-password2']
          font-size: 1.5em;
          font-weight: 100;
        }
-       	usage-guid,.moresocail>p{
+       	#usage-guid,.moresocail>p{
           font-size: 1em;
           margin-bottom: 5px;
           font-weight: 100;
@@ -58,16 +59,16 @@ label[for='id_registration-password2']
           }
 
        input:focus {
-            border-color: rgb(230,193,102)!important;
+            border-color: #d8a745!important;
         }
 
+       #register-block,#usage-guid{
+ margin-top:15vh;}
         #voucher{
           visibility:hidden;
         }
        	@media ( min-width: 500px) {
- #register-block,#usage-guid{
- margin-top:15vh;}
-       		usage-guid,.moresocail>p{
+       		#usage-guid,.moresocail>p{
        		 text-align: center;
        		}
        	 #registration_btn{
@@ -81,9 +82,9 @@ label[for='id_registration-password2']
        }
        #registration_btn{
         color: #fff;
-        background-color:rgb(230,193,102);
+        background-color:#d8a745; #rgb(230,193,102);
         border-color: #fff;
-        border-radius: 1px;
+        border-radius: 0px;
        }
        #mainmenu,#language_selector{
          display:none
@@ -117,7 +118,7 @@ label[for='id_registration-password2']
                         <button onclick="regis_btn()" id="registration_btn" name="registration_submit" type="submit" value="Register" class="btn btn-primary btn-lg center-block" data-loading-text="{%trans 'Registering...' %}">注册获取50元代金券</button>
                     </div>
                     <div class="col-sm-12" style="text-align:center;line-height: 3;" id="usage">
-                        <small onclick="usageClick()">使用说明</small>
+                        <small onclick="usageClick()" style="color: #d8a745;">使用说明</small>
                     </div>
                     {% if cancel_url %}
                         {% trans "or" %} <a href="{{ cancel_url }}">{% trans "cancel" %}</a>.
