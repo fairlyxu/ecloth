@@ -3,7 +3,7 @@ from collections import OrderedDict
 from django.core.urlresolvers import reverse_lazy
 from django.utils.translation import ugettext_lazy as _
 
-OSCAR_SHOP_NAME = 'Oscar'
+OSCAR_SHOP_NAME = 'Fauve'
 OSCAR_SHOP_TAGLINE = ''
 OSCAR_HOMEPAGE = reverse_lazy('promotions:home')
 

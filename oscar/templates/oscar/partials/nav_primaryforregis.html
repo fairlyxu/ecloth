@@ -12,100 +12,189 @@ video#bgvid{
       background: url(/media/banner/7.png) no-repeat;
       background-size: cover;
     }
-        .register_form{
-        height:360px;}
-@media( min-width: 768px) {
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus{
-background-color:transparent;
- }
-#browse>li>a:hover{
-  border-bottom: 2px solid #fff;
- }
-
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: transparent;!important;
-    color: #fff;}
-
-.navbar-inverse {
-    background-color:transparent;
-    border-color: transparent;
-    }
-.nav-opt{top: 2em;}
-.navli{width: 10%; margin: 3px 3%;}
-}
-.open{ background-color:#transparent!important;}
-
-#accountnav>li{
-  float:left;
-}
-li>a{
- color:#f8f8f8!important;
- }
-.dropdown-menu > li > a{
-    display: initial;}
 </style>
-<!-- 语言 账户-->
-<div id="top_page" class="navbar navbar-default navbar-static-top accounts" style="background-color: transparent;border-color: transparent;">
-    <div class="">
-        <div class="container-fluid">
-            {% block nav_account_languages %}
-            {% if LANGUAGES|length > 1 %}
-             <div class="col-lg-3 col-sm-3 text-center nav-opt">
+<style>
+#id_registration-password2,.alert{
+  display:none;
+}
+label[for='id_registration-password2'],label[for='id_registration-password1'],label[for='id_registration-email']
+{
+   display:none;
+}
 
-            {% endif %}
-            {% endblock %}
-             </div>
-             <div class="col-lg-6 col-sm-6 col-xs-12 text-center" id="fauve_logo">
-                <img src="/media/fauve_log.png" style="width:100%;margin-top: -8%;">
-            </div>
-            <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
-            <!--
-            <ul class="nav navbar-nav navbar-right" id="accountnav">
-                {% if user.is_authenticated %}
-                {% block nav_account_navbar_authenticated %}
-                    <li>
-                        {% if num_unread_notifications > 0 %}
-                            {# If user has new notifications - we change account link to go to inbox #}
-                            <a href="{% url 'customer:notifications-inbox' %}">
-                                <i class="icon-user"></i>
-                                {% trans "Account" %}
-                                <span class="label label-warning">{{ num_unread_notifications }}</span>
-                            </a>
-                        {% else %}
-                            <a href="{% url 'customer:summary' %}"><i class="icon-user"></i></a>
-                        {% endif %}
-                    </li>
-                    {% if user.is_staff or perms.partner.dashboard_access %}
-                    <li><a href="{% url 'dashboard:index' %}"><i class="icon-list-ul"></i></a></li>
-                    {% endif %}
-                    <li id="basketcart"><a id="basket_link" href="{% url 'basket:summary' %}"><i class="glyphicon glyphicon-shopping-cart"></i>
-                        <span class="btn-group" >
-                            <ul class="dropdown-menu pull-right" style="width: 400px;padding-bottom: 0px;max-width: none;z-index: 9999;">
-                                <li>{% include "basket/partials/basket_quick.html" %}</li>
-                            </ul>
-                        </span>
-                    </a></li>
-                    <li><a id="logout_link" href="{% url 'customer:logout' %}"><i class="icon-signout"></i></a></li>
-                    <li><a id="search_link" onclick="showSearch()"><i class=" glyphicon glyphicon-search"></i></a></li>
-                    <form method="get" action="{% url 'search:search' %}" class="navbar-form navbar-right hidden" id="search" style="margin-top: -10px;" >
-                        <div class="form-group">
-                            {{ search_form.q }}
-                        </div>
-                        <input type="submit" value="{% trans "Search" %}" class="btn btn-default" />
-                    </form>
-                {% endblock %}
-                {% else %}
-                    <li><a id="login_link" href="{% url 'customer:register' %}"><span id="voucher">提前注册领取代金券</span>&nbsp;&nbsp;<i class="icon-user"></i></a></li>
-                {% endif %}
-            </ul>-->
-                 </div>
-        </div>
-    </div>
-</div>
 
+ .form-group,.row,input,form,hr{
+         padding:0;
+         margin:0
+       }
+.form-control{
+    border-radius: 0px;
+    font-size: inherit;
+}
+#id_registration-password2{
+  display:none;
+}
+
+label[for='id_registration-password2']
+{
+   display:none;
+}
+
+       .register_form{
+        padding:0;
+        border:1px solid rgba(255,255,255,0.75);
+        background-color: rgba(0,0,0,0.6);
+        }
+
+       	#usage-guid,.moresocail>p{
+          text-align: center;
+          }
+       .moresocail>p{
+         margin: 0 0 0.06rem;
+         font-size:0.18rem;
+        }
+       input:focus {
+            border-color: #d8a745!important;
+        }
+
+
+        #voucher{
+          visibility:hidden;
+        }
+
+       #registration_btn{
+        color: #fff;
+        background-color:#d8a745; #rgb(230,193,102);
+        border-color: #fff;
+        border-radius: 0px;
+       }
+
+        #usage:hover{
+          #usage-guid{
+            display:none
+          }
+          }
+
+.wrp5 {
+    margin-top: 1.9rem;
+    text-align: center;
+    overflow: auto;
+}
+.box5 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.8rem;
+    min-height: 4.2rem;
+    border: 1px solid #fff;
+}
+.wrp5:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: -0.25em;
+    /* To offset spacing. May vary by font */
+}
+
+.logo_block{
+    width: 4.8rem;
+    height: 0.74rem;
+    margin-top:0.66rem;
+    margin-bottom:0.4rem;
+    width:100%;
+}
+
+.form_block{
+    min-height: 2.4rem;
+}
+
+.error-block {
+    font-size: 1px;
+    color: #b94a48;
+    margin: 0;
+    padding: 0;}
+#id_registration-email,#id_registration-password1,.submmit{
+    margin: 0 auto;
+    width: 3.52rem;
+    height: 0.4rem;
+    margin-top:0.1rem
+}
+.submmit{
+    font-size: 0.2rem;
+}
+#id_registration-email{
+    margin-top:0.35rem
+}
+#usage{
+    text-align: center;
+    margin-top:0.15rem;
+    color: #d8a745;
+}
+</style>
+<script>
+(function(designWidth, maxWidth) {
+    var doc = document,
+    win = window,
+    docEl = doc.documentElement,
+    remStyle = document.createElement("style"),
+    tid;
+
+    function refreshRem() {
+        var width = docEl.getBoundingClientRect().width;
+        maxWidth = maxWidth || 540;
+        width>maxWidth && (width=maxWidth);
+        var rem = width * 100 / designWidth;
+        remStyle.innerHTML = 'html{font-size:' + rem + 'px;}';
+    }
+
+    if (docEl.firstElementChild) {
+        docEl.firstElementChild.appendChild(remStyle);
+    } else {
+        var wrap = doc.createElement("div");
+        wrap.appendChild(remStyle);
+        doc.write(wrap.innerHTML);
+        wrap = null;
+    }
+    //要等 wiewport 设置好后才能执行 refreshRem，不然 refreshRem 会执行2次；
+    refreshRem();
+
+    win.addEventListener("resize", function() {
+        clearTimeout(tid); //防止执行两次
+        tid = setTimeout(refreshRem, 300);
+    }, false);
+
+    win.addEventListener("pageshow", function(e) {
+        if (e.persisted) { // 浏览器后退的时候重新计算
+            clearTimeout(tid);
+            tid = setTimeout(refreshRem, 300);
+        }
+    }, false);
+
+    if (doc.readyState === "complete") {
+        doc.body.style.fontSize = "16px";
+    } else {
+        doc.addEventListener("DOMContentLoaded", function(e) {
+            doc.body.style.fontSize = "16px";
+        }, false);
+    }
+})(1980, 1980);
+
+    function adujestREM() {
+        document.documentElement.style.fontSize = 100 + "px"
+        document.write('<meta name="viewport" content="width=750, minimum-scale=_, maximum-scale=_, user-scalable=no">'.replace(/_/g, window.innerWidth / 750));
+    }
+    adujestREM()
+</script>
+<style>
+
+     #id_registration-email,#id_registration-password1,#id_registration-password2{
+        background-color: rgba(0,0,0,0.2);
+        color: #fff;
+         }
+</style>
 {% load staticfiles %}
 <script src="{% static 'oscar/js/jquery/jquery-1.9.1.min.js' %}"></script>
+<script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
     <script>
     $(document).ready(function(){
         dropdownOpen();

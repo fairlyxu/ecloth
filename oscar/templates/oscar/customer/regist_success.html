@@ -9,60 +9,46 @@
 
 {% block content %}
 <style>
-#bg-primary{
- margin-top:15vh;}
-@media ( max-width: 450px) {
-    #fauve_logo{
-    display:none;}
-    }
-       p{
-         margin: 0.2em;
-         font-size: 20px;
-         font-weight: 100;
-       }
-       .moresocail p{
-          font-size: 12px;
-          margin:0;
-          font-weight: 100;
-       }
-       #mainmenu,#language_selector{
-         display:none
-         }
-       #fauve_logo{
-         visibility: hidden;
-         }
-         #voucher{
-          visibility:hidden;
-        }
 
+p{
+margin:0;
+padding:0}
+.succes>p{
+font-size:0.2rem;
+color:#fff;
+
+}
+.more>p{
+font-size:0.12rem;
+color:#fff;
+}
 </style>
 
 <video width="100%" height="100%" preload="true" autoplay="true" loop="true" poster="/media/banner/7.png" id="bgvid">
     <source src="/media/vedio720p.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
     <source src="/media/vedio720p.mp4" type="video/ogg; codecs=&quot;theora, vorbis&quot;">
 </video>
- <section id="bg-primary">
-      <div class="container">
-          <div class="row">
-        <div class="col-xs-12 col-md-4 col-md-offset-4 register_form" style="padding: 0;border: 1px solid rgba(255,255,255,0.75);background-color: rgba(0,0,0,0.5);position:relative;
-    top:50%; ">
-            <img src="/media/fauve_log.png" style="width:45%;margin-top: 3em;" class="center-block">
-            <hr  style="border: 1px solid rgba(255,255,255,0.25);">
-            <div style="text-align:center">
-                <p>恭喜！</p>
-                <p>您已经成为FAUVE会员，</p>
-                <p>代金券已发送到您的邮箱！</p>
-                <div class="moresocail" style="margin-top: 2em;">
-                    <p>更多精彩可关注</p>
-                    <p>微博：Fauve_NewYork</p>
-                    <p>微信公众号：FauveNewYork</p>
-                    <p>Instagram：fauve_newyork</p>
-                </div>
-            </div>
-        </div>
+
+<div class="wrp wrp5" id="bg-primary" >
+    <div class="box box5">
+        <div ><img src="/media/fauve_log.png" style="width:45%" class="center-block logo_block" ></div>
+        <hr  style="border: 1px solid rgba(255,255,255,0.25);">
+         <div style="text-align:center">
+             <div class="succes" style="margin:0.3rem 0 0.3rem">
+                 <p >恭喜！</p>
+                 <p>您已经成为FAUVE会员，</p>
+                 <p>代金券已发送到您的邮箱！</p>
+             </div>
+             <div class="more">
+                  <p>更多精彩可关注</p>
+                  <p>微博：Fauve_NewYork</p>
+                  <p>微信公众号：FauveNewYork</p>
+                  <p>Instagram：fauve_newyork</p>
+             </div>
           </div>
-      </div>
- </section>
+    </div>
+</div>
+
 <script>
     function codefans(){
     var box=document.getElementById("bg-primary");
