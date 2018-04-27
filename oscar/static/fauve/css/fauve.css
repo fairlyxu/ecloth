@@ -14,4 +14,3 @@ background: transparent!important;
 .table-striped > tbody > tr:nth-of-type(odd) {
      background-color: transparent!important;
 }
-.breadcrumb > li + li:before{content: ">"}
